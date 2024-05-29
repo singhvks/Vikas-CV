@@ -1,13 +1,10 @@
 ### VIKAS SINGH
 **Data Science Lead**
 
-
-
 ### Summary
 Data science and machine learning professional with nearly 8 years of experience in clinical research and insurance sectors. Expert in leveraging data-driven insights and advanced machine learning methods to solve complex business problems. Proven track record in deploying and validating product features that enhance pricing strategies, user interfaces, and financial optimization. Successfully led teams to develop robust data engineering pipelines and predictive models.
 
 ---
-
 ### Technical Skills
 - **Programming Languages**: Python, SQL
 - **Machine Learning**: Scikit-learn, TensorFlow, PyTorch, NLP
@@ -16,7 +13,6 @@ Data science and machine learning professional with nearly 8 years of experience
 - **CI-CD**: Git, Docker, Kubernetes, CloudFormation
 
 ---
-
 ### Certifications
 - **Applied Data Science II**: Machine Learning & Statistical Analysis (with honors) - WQU
 - **Certified NLP Developer** - Vskills
@@ -26,7 +22,6 @@ Data science and machine learning professional with nearly 8 years of experience
 - **Certified Tableau Author** - Tableau
 
 ---
-
 ### Professional Experience and Impact
 
 **ZS Associates** — *Data Science Lead*  
@@ -42,10 +37,7 @@ Data science and machine learning professional with nearly 8 years of experience
 - **Customer Segmentation**: Developed clustering-based feature to suggest discounts to customers based on engagement, increasing customer retention by 10%.
 - **Breakdown Recommendation**: Implemented SVM-based system for accurate breakdown level suggestions, enhancing customer satisfaction by 15%.
 
-
-
 ---
-
 ### Projects
 
 **Clinical Supply Chain Optimization -** **Python, AWS, MCMC**
@@ -67,7 +59,6 @@ Data science and machine learning professional with nearly 8 years of experience
 - Automated the extraction and validation of the XML API response which helped save validation time for DuckCreek Insurance system.
 
 ---
-
 ### Roles and Responsibilities
 
 - **Creating, Implementing, and Enhancing Data-Driven Solutions**: Responsible for the design, implementation, and continuous improvement of data-driven solutions and their seamless integrations into various platforms.
@@ -85,9 +76,8 @@ Data science and machine learning professional with nearly 8 years of experience
 - Ensured the accuracy and quality of data, models, and analysis.
 - Tracked project performance and outcomes using appropriate metrics and reported progress to stakeholders.
 - Implemented feedback and lessons learned to drive continuous improvement in future projects.
-- Managed a blend of project planning, team coordination, quality assurance, performance tracking, and continuous improvement to successfully manage data science projects and lead teams to drive business value through data-driven insights.
----
 
+---
 ### Educational Background
 
 **Bharati Vidyapeeth College of Engineering, Pune**  
@@ -106,8 +96,8 @@ Data science and machine learning professional with nearly 8 years of experience
 
 *Higher Secondary*
 - Percentage: 88.6%
----
 
+---
 ### Online Profiles
 - **LinkedIn**: [linkedin.com/in/singhvks](https://www.linkedin.com/in/singhvks)
 - **GitHub**: [github.com/singhvks](https://github.com/singhvks)
@@ -115,7 +105,6 @@ Data science and machine learning professional with nearly 8 years of experience
 
 ---
 #### Contact Information
-- **Phone**: +91-9403647912
 - **Email**: singhvks@outlook.in
 - **LinkedIn**: [linkedin.com/in/singhvks](https://www.linkedin.com/in/singhvks)
 - **GitHub**: [github.com/singhvks](https://github.com/singhvks)
