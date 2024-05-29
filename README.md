@@ -5,8 +5,9 @@ Data science and machine learning professional with nearly 8 years of experience
 ### Technical Skills
 - **Programming Languages**: Python, SQL
 - **Machine Learning**: Scikit-learn, TensorFlow, PyTorch, NLP
-- **Data Tools**: Tableau, Spark, Hadoop
+- **Data Visualization Tools**: Tableau, Plotly, MS Excel
 - **Cloud Platforms**: AWS - EC2, RDS, Redshift, Glue, EKS, Lambda
+- **Bigdata Technologies**: Spark, Hadoop
 - **CI-CD**: Git, Docker, Kubernetes, CloudFormation
 
 ---
