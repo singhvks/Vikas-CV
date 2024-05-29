@@ -13,7 +13,7 @@ Data science and machine learning professional with nearly 8 years of experience
 
 ---
 ### Certifications
-- **Applied Data Science II**: Machine Learning & Statistical Analysis (with honors) - WQU
+- **Applied Data Science II**: Machine Learning & Statistical Analysis (with honors) - World Quant University, New Orleans
 - **Certified NLP Developer** - Vskills
 - **Certified Python Developer** - Vskills
 - **Python for Data Science** – Cognitive Class (IBM)
