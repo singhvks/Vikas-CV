@@ -1,6 +1,4 @@
-### VIKAS SINGH - **Data Science Lead**
-
-### Summary
+### Profile Summary
 Data science and machine learning professional with nearly 8 years of experience in clinical research and insurance sectors. Expert in leveraging data-driven insights and advanced machine learning methods to solve complex business problems. Proven track record in deploying and validating product features that enhance pricing strategies, user interfaces, and financial optimization. Successfully led teams to develop robust data engineering pipelines and predictive models.
 
 ---
