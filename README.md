@@ -87,26 +87,23 @@ Data science and machine learning professional with nearly 8 years of experience
 - Percentage: 78%
 
 **Army Public School, Allahabad** *2009 - 2011*
-
-*Senior Secondary*
-- Percentage: 78.2%
+- *Senior Secondary* - 78.2%
 
 **Army School, Udhampur** *2008 - 2009*
-
-*Higher Secondary*
-- Percentage: 88.6%
+- *Higher Secondary* - 88.6%
 
 ---
 ### Online Profiles
-- **LinkedIn**: [linkedin.com/in/singhvks](https://www.linkedin.com/in/singhvks)
-- **GitHub**: [github.com/singhvks](https://github.com/singhvks)
-- **HackerRank**: [hackerrank.com/singhvks](https://www.hackerrank.com/singhvks)
+- **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
+- **GitHub**: [github/singhvks](https://github.com/singhvks)
+- **HackerRank**: [hackerrank/singhvks](https://www.hackerrank.com/singhvks)
 
 ---
 #### Contact Information
-- **Email**: singhvks@outlook.in
-- **LinkedIn**: [linkedin.com/in/singhvks](https://www.linkedin.com/in/singhvks)
-- **GitHub**: [github.com/singhvks](https://github.com/singhvks)
-- **HackerRank**: [hackerrank.com/singhvks](https://www.hackerrank.com/singhvks)
+- **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
+- **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
 
+
+---
+*End*
 ---
