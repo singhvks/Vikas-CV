@@ -101,7 +101,7 @@ Data science and machine learning professional with nearly 8 years of experience
 - **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
 - **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
 
-
 ---
-*End*
+*end*
+
 ---
