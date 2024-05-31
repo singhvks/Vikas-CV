@@ -18,62 +18,68 @@ Data science and machine learning professional with nearly 8 years of experience
 - **Python for Data Science** – Cognitive Class (IBM)
 - **Math for Machine Learning** – Amazon
 - **Certified Tableau Author** - Tableau
+- **Certified Basic Agile Testing** - Agile Testing Alliance
+- **Certified Selenium Automation Testing** - Agile Testing 
+Alliance
+- **ISTQB** - International Software Testing Qualifications Board
 
 ---
-### Professional Experience and Impact
+### Projects Achievements
 
 **ZS Associates** — *Data Science Lead*  
 *Apr 2021 - Present*
-- **Clinical Supply Chain Optimization**: Developed a predictive analytics framework using AWS to optimize the global supply chain for clinical drugs. Improved demand forecasting accuracy by 20%.
-- **Safety Stock Optimization**: Integrated mathematical modeling techniques to refine safety stock calculations, reducing excess inventory by 15%.
-- **Analytics Insights Engine**: Designed a SPARK-based analytics engine interfacing with Salesforce, enhancing MSL engagement strategies with HCPs. 
-- **Breakdown Cover Recommendation**: Developed a clustering-based recommendation system for an insurance client, leading to improved customer satisfaction and retention.
+- **Clinical Supply Chain Optimization**: 
+- *Clinical Trial and Comparator Drug Supply*: Developed a predictive analytics framework using AWS to optimize the global supply chain for clinical drugs. Improved demand forecasting accuracy by 20%. This solutions earlier in pilot phase was created for only US and then later was scaled to four more countries in Europe after addressing challenges related to governance and data architecture.
+- *Safety Stock Optimization*: Integrated mathematical modeling techniques to refine safety stock calculations, reducing excess inventory by 15%. This process also involved addressing data capture limitation and creating solution based on transactional data.
+- **Analytics Insights Engine**: Designed a SPARK-based analytics engine interfacing with Salesforce, enhancing MSL engagement strategies with HCPs. This solution has now been successfully operational for Canada and Europe  regions as well though initially planned for only US. 
+- **Data Diagnostics Dashboard**: Designed and implemented backend data model and frontend dashboard for Real World Data (RWD) analysis. AWS Redshift was utilized to host the RWD data and final reporting frontend was created using Plotly on cloud hosted instance of Jupyter notebook. This project has been a success in terms of reducing analysis time (this was multi step and manual earlier) and being a cost efficient solution with use of open source technologies.
 
 **L&T Infotech** — *Data Engineer*  
 *Sep 2016 - May 2020*
 - **Duckcreek Response Analysis**: Extracted and validated XML responses from an insurance admin system using Python.
-- **Customer Segmentation**: Developed clustering-based feature to suggest discounts to customers based on engagement, increasing customer retention by 10%.
-- **Breakdown Recommendation**: Implemented SVM-based system for accurate breakdown level suggestions, enhancing customer satisfaction by 15%.
+- **Breakdown Cover Recommendation**: Developed a clustering-based recommendation system for an insurance client, leading to improved customer satisfaction and retention. There has been a decrease of 30% in terms of customer drop outs from product landing page and 50% lesser queries to in call customer care.
 
 ---
-### Projects
+### Project and Technology Stack
 
 **Clinical Supply Chain Optimization -** **Python, AWS, MCMC**
-- Spearheaded the development and implementation of a predictive analytics framework using AWS to optimize the global supply chain for clinical drugs.
-- Led a team in building robust data engineering pipelines and model training processes, incorporating SVN for code version control.
-
-**Safety Stock Optimization -** **Python, AWS, MCMC**
-- Directed the integration and optimization of mathematical modeling techniques to refine safety stock calculations, complementing previously established demand forecasts.
-- Managed the full lifecycle of model development from conception to deployment, significantly cutting down model training times through innovative chaining methods.
+- *Architected and led implementation of predictive analytics framework* using AWS to optimize the global supply chain for clinical drugs.
+- *Liaison with multiple teams - platform, supply chain, data science* for effectively building of robust data engineering pipelines and model training processes.
 
 **Analytics Insights Engine -** **Python, SQL, Spark, NLP**
-- Led the design and deployment of a SPARK-based analytics engine that interfaces seamlessly with Salesforce, enhancing Medical Science Liaisons' (MSLs) engagement strategies with Healthcare Professionals (HCPs).
-- Oversaw the maintenance of data engineering pipelines and orchestrated workflow automation.
+- *Led the design and deployment* of a SPARK-based analytics engine that interfaces seamlessly with Salesforce, enhancing Medical Science Liaisons' (MSLs) engagement strategies with Healthcare Professionals (HCPs).
+- *Operationalized data engineering pipelines* and orchestrated workflow automation.
 
-**Breakdown Cover Recommendation -** **Python, Machine Learning (SVM), Scikit-Learn, SQL, API**
-- Architceted and operationalized a clustering-based recommendation system for an insurance client, designed to enhance customer experience through personalized breakdown cover suggestions.
+**Breakdown Cover Recommendation -** **Python, Machine Learning (SVM), Scikit-Learn, SQL, API, JAVA, Selenium**
+- *End to end implementation* of an Machine Learning based response API to the website frontend.
+- *Responsible* for re-training of model and ensuring all QC checks are passed by the model before each operational updates in weights.
+- *Integrated the ML API Response* to the website frontend with REST API
+- *Frontend UI Testing Automation* script creation for validation and capture of the response served to the user on the website using JAVA Selenium.
 
 **Duckcreek Response Analysis -**  **Python, XML, Data Pre-Processing**
-- Automated the extraction and validation of the XML API response which helped save validation time for DuckCreek Insurance system.
+- *Automated the extraction and validation* of XML API response which helped save validation time for DuckCreek Insurance system.
+- *Integrated these tests* to project Automated test suite on Selenium.
 
 ---
 ### Roles and Responsibilities
 
-- **Creating, Implementing, and Enhancing Data-Driven Solutions**: Responsible for the design, implementation, and continuous improvement of data-driven solutions and their seamless integrations into various platforms.
-- **Achitecting the solution in AWS Cloud**: Work with the stakeholders to finalze the design and calculate the infrastruture cost/planned budget for this architecture. Coordinate with other cloud teams for whitelisting and resource provisioning. 
+
+- **Architected the solution in AWS Cloud**: Work with the stakeholders to finalize the design and calculate the infrastructure cost/planned budget for this architecture. Coordinate with other cloud teams for whitelisting and resource provisioning. 
 - **Prototyping and Deploying ML-Based Features**: Proficiently prototyping and integrating machine learning model-based features across diverse platforms, driving enhanced functionality and performance.
 - **Ensuring Feature Implementation and Testing**: Ensured the successful implementation and rigorous testing of product features, spanning both User Acceptance Testing (UAT) and production environments.
 - **Empowering Various Teams with ML Capabilities**: Provided valuable machine learning capabilities to pricing, finance, and promotion analytics teams, empowering them to make data-informed decisions.
 - **Data Pre-processing and Preparation**: Expertly managed data pre-processing and preparation tasks, handling data from sources such as XML, JSON, and SQL databases, ensuring data quality and consistency.
 - **Dashboard and Report Development**: Designed and developed dashboards and reports on Tableau, offering valuable insights and evaluation metrics for stakeholders and decision-makers.
+- **Testing and Quality Control**: Devised and implemented automated testing solution for System Integration (SIT), Direct Validation (DVT).
+- **Test Management**: Responsible for test execution and defect tracking on HP ALM and JIRA
 
 ### **Project Management**
-**Agile, Release Planning, SOW Creation, Resource Planning, Timeline Estimation**
-- Defined project scope, goals, and deliverables in collaboration with senior management and stakeholders.
-- Coordinated team activities, assigned tasks, and monitored progress to ensure adherence to project timelines.
-- Ensured the accuracy and quality of data, models, and analysis.
-- Tracked project performance and outcomes using appropriate metrics and reported progress to stakeholders.
-- Implemented feedback and lessons learned to drive continuous improvement in future projects.
+**Agile, Release Planning, SOW Creation, Resource Planning, Timeline Estimation, JIRA, HP-ALM, Kanban**
+- *Release Planning* - Defined project scope, goals, and deliverables in collaboration with senior management and stakeholders.
+- *Task Management* - Coordinated team activities, assigned tasks, and monitored progress to ensure adherence to project timelines.
+- *Peer Reviews*- Ensured the accuracy and quality of data, models, and analysis.
+- *JIRA Project Tracking* - Tracked project performance and outcomes using appropriate metrics and reported progress to stakeholders.
+- *Retrospection* - Implemented feedback and lessons learned to drive continuous improvement in future projects.
 
 ---
 ### Educational Background
@@ -90,6 +96,9 @@ Data science and machine learning professional with nearly 8 years of experience
 
 **Army School, Udhampur** *2008 - 2009*
 - *Higher Secondary* - 88.6%
+
+**Published Journal**
+- [Rectenne](http://www.journalcra.com/sites/default/files/issue-pdf/13826.pdf) - Introducing wireless powered devices can reduce pollution from hazardous battery chemicals, making mobile devices fully wireless while minimizing environmental interference through proper regulations and establishing safety standards for wireless power applications.
 
 ---
 ### Online Profiles
