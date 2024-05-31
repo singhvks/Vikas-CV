@@ -112,6 +112,21 @@ Alliance
 - **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
 
 ---
-*end*
-
+![Python Icon](https://img.icons8.com/color/48/000000/python.png)
+![SQL Icon](https://img.icons8.com/color/48/000000/sql.png)
+![TensorFlow Icon](https://img.icons8.com/color/48/000000/tensorflow.png)
+![Tableau Icon](https://img.icons8.com/color/48/000000/tableau-software.png)
+![Excel Icon](https://img.icons8.com/color/48/000000/ms-excel.png)
+![AWS Icon](https://img.icons8.com/color/48/000000/amazon-web-services.png)
+![Git Icon](https://img.icons8.com/color/48/000000/git.png)
+![Docker Icon](https://img.icons8.com/color/48/000000/docker.png)
+![Kubernetes Icon](https://img.icons8.com/color/48/000000/kubernetes.png)
+![CloudFormation Icon](https://img.icons8.com/color/48/000000/amazon-web-services.png)
+<img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" alt="SpaCy Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop Icon" height="48">
 ---
+*end*
