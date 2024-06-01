@@ -2,6 +2,8 @@
 title: VIKAS SINGH
 description: Data Science Lead
 theme: minima
+minima:
+  skin: dark
 
 # Plugins
 plugins:
