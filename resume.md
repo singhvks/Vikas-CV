@@ -32,15 +32,21 @@ Alliance
 - *Clinical Trial and Comparator Drug Supply*: Developed a predictive analytics framework using AWS to optimize the global supply chain for clinical drugs. Improved demand forecasting accuracy by 20%. This solutions earlier in pilot phase was created for only US and then later was scaled to four more countries in Europe after addressing challenges related to governance and data architecture.
 - *Safety Stock Optimization*: Integrated mathematical modeling techniques to refine safety stock calculations, reducing excess inventory by 15%. This process also involved addressing data capture limitation and creating solution based on transactional data.
 - **Analytics Insights Engine**: Designed a SPARK-based analytics engine interfacing with Salesforce, enhancing MSL engagement strategies with HCPs. This solution has now been successfully operational for Canada and Europe  regions as well though initially planned for only US. 
+
+**Collabera** — *Data Engineer*  
+*Sep 2020 - Apr 2021*
 - **Data Diagnostics Dashboard**: Designed and implemented backend data model and frontend dashboard for Real World Data (RWD) analysis. AWS Redshift was utilized to host the RWD data and final reporting frontend was created using Plotly on cloud hosted instance of Jupyter notebook. This project has been a success in terms of reducing analysis time (this was multi step and manual earlier) and being a cost efficient solution with use of open source technologies.
 
-**L&T Infotech** — *Data Engineer*  
+**L&T Infotech** — *Engineer*  
 *Sep 2016 - May 2020*
 - **Duckcreek Response Analysis**: Extracted and validated XML responses from an insurance admin system using Python.
 - **Breakdown Cover Recommendation**: Developed a clustering-based recommendation system for an insurance client, leading to improved customer satisfaction and retention. There has been a decrease of 30% in terms of customer drop outs from product landing page and 50% lesser queries to in call customer care.
 
 ---
 ### Project and Technology Stack
+
+**ZS Associates** — *Data Science Lead*  
+*Apr 2021 - Present*
 
 **Clinical Supply Chain Optimization -** **Python, AWS, MCMC**
 - *Architected and led implementation of predictive analytics framework* using AWS to optimize the global supply chain for clinical drugs.
@@ -49,6 +55,9 @@ Alliance
 **Analytics Insights Engine -** **Python, SQL, Spark, NLP**
 - *Led the design and deployment* of a SPARK-based analytics engine that interfaces seamlessly with Salesforce, enhancing Medical Science Liaisons' (MSLs) engagement strategies with Healthcare Professionals (HCPs).
 - *Operationalized data engineering pipelines* and orchestrated workflow automation.
+
+**L&T Infotech** — *Data Engineer*  
+*Sep 2016 - May 2020*
 
 **Breakdown Cover Recommendation -** **Python, Machine Learning (SVM), Scikit-Learn, SQL, API, JAVA, Selenium**
 - *End to end implementation* of an Machine Learning based response API to the website frontend.
@@ -112,6 +121,13 @@ Alliance
 - **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
 
 ---
+### ***Technology Stack***
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Icon" height="48">
+<img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" alt="SpaCy Icon" height="48">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark Icon" height="48">
+
 ![Python Icon](https://img.icons8.com/color/48/000000/python.png)
 ![SQL Icon](https://img.icons8.com/color/48/000000/sql.png)
 ![TensorFlow Icon](https://img.icons8.com/color/48/000000/tensorflow.png)
@@ -122,12 +138,7 @@ Alliance
 ![Docker Icon](https://img.icons8.com/color/48/000000/docker.png)
 ![Kubernetes Icon](https://img.icons8.com/color/48/000000/kubernetes.png)
 ![CloudFormation Icon](https://img.icons8.com/color/48/000000/amazon-web-services.png)
-<img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" alt="SpaCy Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark Icon" height="48">
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop Icon" height="48">
 
 ---
-*end*
