@@ -1,7 +1,4 @@
-// Import minima's base styles
-@import "minima";
-
-// Custom dark mode styles
+/* Custom dark mode styles */
 body {
   background-color: #121212;
   color: #ffffff;
