@@ -12,11 +12,3 @@ plugins:
 sass:
   style: compressed
 
-# Include custom styles
-include:
-  - assets/main.css
-
-# Build settings
-baseurl: "/Vikas-CV"# the subpath of your site, e.g. /blog
-url: "https://singhvks.github.io/" # the base hostname & protocol for your site 
-
