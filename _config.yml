@@ -14,7 +14,7 @@ sass:
 
 # Include custom styles
 include:
-  - assets/styles.scss
+  - assets/main.css
 
 # Build settings
 baseurl: "/Vikas-CV"# the subpath of your site, e.g. /blog
