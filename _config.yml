@@ -1,22 +1,22 @@
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 title: VIKAS SINGH
 description: Data Science Lead
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Your Name"
-
-# Add markdown support
-markdown: kramdown
+title: "My Resume"
+description: "Professional Resume"
+theme: minima
 
 # Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Dark mode CSS
+# Custom settings
 sass:
   style: compressed
+
+# Build settings
+baseurl: "/Vikas-CV"# the subpath of your site, e.g. /blog
+url: "https://singhvks.github.io/" # the base hostname & protocol for your site 
+
+# Includes custom CSS
+markdown: kramdown
