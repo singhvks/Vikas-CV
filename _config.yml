@@ -1,6 +1,6 @@
 # theme: jekyll-theme-minimal
-title: VIKAS SINGH
-description: Data Science Lead
+# title: VIKAS SINGH
+# description: Data Science Lead
 theme: minima
 
 # Plugins
@@ -20,5 +20,3 @@ include:
 baseurl: "/Vikas-CV"# the subpath of your site, e.g. /blog
 url: "https://singhvks.github.io/" # the base hostname & protocol for your site 
 
-# Includes custom CSS
-markdown: kramdown
