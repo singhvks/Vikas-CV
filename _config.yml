@@ -1,14 +1,3 @@
-# theme: jekyll-theme-minimal
-# title: VIKAS SINGH
-# description: Data Science Lead
-theme: minima
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Custom settings
-sass:
-  style: compressed
-
+theme: jekyll-theme-minimal
+title: VIKAS SINGH
+description: Data Science Lead
