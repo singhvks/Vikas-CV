@@ -2,8 +2,6 @@
 title: VIKAS SINGH
 description: Data Science Lead
 theme: minima
-minima:
-  skin: dark
 
 # Plugins
 plugins:
@@ -13,6 +11,10 @@ plugins:
 # Custom settings
 sass:
   style: compressed
+
+# Include custom styles
+include:
+  - assets/styles.scss
 
 # Build settings
 baseurl: "/Vikas-CV"# the subpath of your site, e.g. /blog
