@@ -122,6 +122,7 @@ Alliance
 
 ---
 ### ***Technology Stack***
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Icon" height="48">
 <img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly Icon" height="48">
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Icon" height="48">
