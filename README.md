@@ -1,3 +1,7 @@
+# Vikas Kumar Singh
+
+---
+
 ## Professional Summary
 Data Science Manager with 8+ years of experience in AI/ML solutions, scalable data engineering, and analytics across retail, pharma, and insurance. Expertise in architecting AI-driven products including GenAI, deploying machine learning and LLM models at scale on AWS cloud and Databricks. Leading cross-functional teams to drive business impact utilising the developed solutions.
 
