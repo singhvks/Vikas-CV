@@ -70,10 +70,13 @@ Data Science Manager with 8+ years of experience in AI/ML solutions, scalable da
 
 ## Education
 
-- **BVDU College of Engineering, Pune** – *B.Tech Electronics Engineering* | 2012–2016 | 70%  
-- **BVDU College of Engineering, Pune** – *Diploma Network Security* | 2012–2015 | 83%  
-- **Army School, Allahabad** – *Senior Secondary School* | 2010–2011 | 78%  
-- **Army School, Udhampur** – *Higher Secondary School* | 2009–2010 | 89%
+| Institution                        | Program / Qualification           | Years       | Score |
+|------------------------------------|------------------------------------|-------------|-------|
+| BVDU College of Engineering, Pune | B.Tech Electronics Engineering     | 2012–2016   | 70%   |
+| BVDU College of Engineering, Pune | Diploma Network Security           | 2012–2015   | 83%   |
+| Army School, Allahabad            | Senior Secondary School            | 2010–2011   | 78%   |
+| Army School, Udhampur             | Higher Secondary School            | 2009–2010   | 89%   |
+
 
 ---
 
