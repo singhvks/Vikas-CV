@@ -58,13 +58,20 @@ Data Science Manager with 8+ years of experience in AI/ML solutions, scalable da
 
 ## Certifications
 
-- GenAI Engineer: Databricks  
-- Certified NLP Developer: Vskills  
-- Certified Python Developer: Vskills  
-- Math for Machine Learning: Amazon  
-- Certified Tableau Author: Tableau  
-- Certified Basic Agile Methodology: ATA  
-- Applied Data Science I & II (with honours): World Quant University  
+- **Databricks Certified Generative AI Engineer Associate** - Databricks
+- **Applied Data Science I: Scientific Computing & Python (with honors)** - WorldQuant University
+- **Academy Accreditation - Generative AI Fundamentals** - Databricks
+- **Tableau Author** - Tableau
+- **LangChain for LLM Application Development** - DeepLearning.AI
+- **Data Analysis with Python** - Cognitive Class
+- **AI/ML For Geodata Analysis** - Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO)
+- **Python for Data Science** - IBM
+- **Certificate in Natural Language Processing using Python** - Vskills
+- **Certified Python Developer** - Vskills
+- **Applied Data Science II: Machine Learning & Statistical Analysis (with honors)** - WorldQuant University
+- **ISTQB-Foundation Level** - ISTQB® - International Software Testing Qualifications Board
+- **Certified Professional - Basic Agile Testing** - Agile Testing Alliance
+- **Certified Professional - Selenium Automation Testing** - Agile Testing Alliance
 
 ---
 
