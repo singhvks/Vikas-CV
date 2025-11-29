@@ -1,156 +1,124 @@
-# Vikas Kumar Singh
+# VIKAS KUMAR SINGH
 
-## Professional Summary
-Data Science Manager with 8+ years of experience in AI/ML solutions, scalable data engineering, and analytics across retail, pharma, and insurance. Expertise in architecting AI-driven products including GenAI, deploying machine learning and LLM models at scale on AWS cloud and Databricks. Leading cross-functional teams to drive business impact utilising the developed solutions.
+## Professional Summary 🚀
+[cite_start]**Data Science Manager** with **9+ years** of expertise in delivering production-grade **AI/ML** and **Generative AI** solutions across **Retail, Pharmaceutical, and Insurance** industries[cite: 5]. [cite_start]Proficient in building scalable ML/GenAI systems, managing large-scale data workflows, and integrating predictive analytics into decision platforms[cite: 6]. [cite_start]Strong background in experimentation design, statistical modeling, **MLOps (AWS, Databricks, MLflow)**, and leading cross-functional teams to align ML strategy with business goals[cite: 7, 8].
 
 ---
 
 ## Core Competencies
-- GenAI Solution Architecture and Design  
-- Forecasting & Optimization Models  
-- Business Intelligence & Data-Driven Decision Making  
-- Large-Scale Machine Learning & ML-Ops  
-- Executive Stakeholder Communication  
-- Team Leadership & Talent Development  
-- Cloud & Data Engineering (AWS, Databricks, PySpark)
+* [cite_start]**Generative AI & LLM Architecture (RAG, Multi-Agent Systems)** [cite: 10]
+* [cite_start]**Forecasting (Time Series, Bayesian, Geospatial Analysis)** [cite: 11, 17, 20]
+* [cite_start]**Cloud & MLOps Platforms (AWS, Databricks, MLflow, Docker)** [cite: 13, 58]
+* [cite_start]**Executive Stakeholder Management & AI Strategy Definition** [cite: 57]
+* [cite_start]**Team Leadership & Mentorship (10+ members)** [cite: 55]
+* [cite_start]**Scalable Data Engineering (PySpark, SQL, ETL Pipelines)** [cite: 14]
 
 ---
 
 ## Professional Experience
 
-### **Tredence Analytics**  
-**Data Science Manager** | *Nov 2024 – Present*  
-- Architecting and leading end-to-end AI/ML solutions for clients in the retail sector, optimizing key business processes.  
-- Managing the complete data science solution lifecycle, including forecasting, clustering models, and AI-driven automation.  
-- Led automation and scalable data engineering pipelines using PySpark, Databricks, and cloud services.  
-- Collaborating with business, IT infrastructure, and data operations teams to ensure seamless AI adoption.
+### **Tredence Analytics**
+**Manager – Data Science** | *Nov 2024 – Present*
+* [cite_start]Designing the technical roadmap and architecture for end-to-end AI/ML solution delivery, optimizing existing retail planning and store operations[cite: 24, 25].
+* [cite_start]Architecting the **GenAI integration and platform readiness** for Category Performance Analysis[cite: 26].
+* [cite_start]Deployed machine learning models enabling a forecasting accuracy of **60%** for new proposed sites across multiple sales categories[cite: 25].
+* [cite_start]Built and deployed **ML pipelines** using **Databricks and MLflow**, enabling automated training, evaluation, and monitoring[cite: 27].
+* [cite_start]Collaborated with international business teams across the US to integrate model outcomes into planning systems[cite: 28].
 
 ---
 
-### **ZS Associates**  
-**Business Technology Solutions Consultant** | *Apr 2021 – Aug 2024*  
-- Designed and implemented AI/ML solutions for global pharma clients, integrating predictive analytics into business decision-making.  
-- Led model validation, optimization, and deployment to ensure scalable and production-ready AI/ML solutions.  
-- Developed NLP-based recommendation engines, driving increased engagement through intelligent decision systems.  
-- Created and managed large-scale data engineering pipelines, leveraging AWS Glue, Redshift, and PySpark.  
-- Acted as a bridge between business teams and AI/ML teams, ensuring data science solutions align with business goals.  
-- Led a 10+ member team of data scientists and engineers to drive ML model development and deployment.
+### **ZS Associates**
+**Business Technology Solutions Consultant** | *Apr 2021 – Aug 2024*
+* [cite_start]Delivered commercial analytics and ML solutions for top-tier pharma clients, leveraging **AWS-based infrastructure**[cite: 30].
+* [cite_start]Designed and implemented **A/B testing** strategies and **causal inference** workflows for model validation and iteration[cite: 31].
+* [cite_start]Owned the end-to-end ML solution lifecycle: data engineering, model building, deployment, monitoring, and retraining[cite: 32].
+* [cite_start]Led development of NLP models for personalized **HCP outreach (Next Best Action System)**[cite: 21].
+* [cite_start]Directed AI teams of **10+ members** to deliver high-ROI ML solutions[cite: 55].
 
 ---
 
-### **Collabera Technologies**  
-**Data Engineer** | *Sep 2020 – Apr 2021*  
-- Developed SPARK-based data pipelines to process structured and unstructured datasets from diverse sources.  
-- Implemented fuzzy matching techniques for integrating unlinked datasets, improving data accuracy and usability.  
-- Designed and deployed real-time interactive BI solutions using AWS Redshift, Python, and Plotly.
+### **Collabera Technologies**
+**Data Engineer** | *Sep 2020 – Apr 2021*
+* [cite_start]Built scalable **Spark-based pipelines** for ingesting multi-format healthcare and insurance datasets[cite: 34].
+* [cite_start]Enabled a **unified data model** utilized for Real World Data assessment[cite: 35].
+* [cite_start]Enabled exploratory data analysis through custom-built BI tools using **Plotly and Jupyter**[cite: 36].
+* [cite_start]Reduced the time for overall analysis by **40%** compared to the earlier manual process[cite: 37].
 
 ---
 
-### **LTI Mindtree**  
-**Engineer** | *Sep 2016 – May 2020*  
-- Developed automated AI/ML pipelines for predictive modelling and operational analytics.  
-- Designed web automation solutions using Java Selenium, ensuring high efficiency in data validation and extraction.  
-- Managed end-to-end AI-driven automation workflows, collaborating with business and QA teams.
+### **LTI Mindtree**
+**Engineer** | *Sep 2016 – May 2020*
+* [cite_start]Developed API-integrated machine learning models to support insurance policy breakdown cover **recommendation**[cite: 39].
+* [cite_start]Built real-time monitoring tools and conducted regular model performance reviews to ensure system stability[cite: 40].
+* Managed end-to-end AI-driven automation workflows, collaborating with business and QA teams.
 
 ---
 
-## Certifications
+## Key AI/ML Projects & Solutions 💡
 
-- **Databricks Certified Generative AI Engineer Associate** - Databricks
-- **Academy Accreditation - Generative AI Fundamentals** - Databricks
-- **LangChain for LLM Application Development** - DeepLearning.AI
-- **Applied Data Science I: Scientific Computing & Python (with honors)** - WorldQuant University
-- **Applied Data Science II: Machine Learning & Statistical Analysis (with honors)** - WorldQuant University
-- **AI/ML For Geodata Analysis** - Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO)
-- **Certificate in Natural Language Processing using Python** - Vskills
-- **Certified Python Developer** - Vskills
-- **Tableau Author** - Tableau
-- **Data Analysis with Python** - Cognitive Class
-- **Python for Data Science** - IBM
-- **ISTQB-Foundation Level** - ISTQB® - International Software Testing Qualifications Board
-- **Certified Professional - Basic Agile Testing** - Agile Testing Alliance
-- **Certified Professional - Selenium Automation Testing** - Agile Testing Alliance
+* [cite_start]**Retail Analytics Multi-Agent System (GenAI)**: Designed an **LLM-based multi-agent architecture** to provide inferential and causal findings for eCommerce sales and marketing analysis[cite: 16, 18].
+* [cite_start]**GenAI Product Harmonization**: Utilized **LLM + clustering** for attribute extraction to unify retail catalog data, improving data quality and search[cite: 19].
+* [cite_start]**Bayesian Clinical Trial Forecasting**: Developed an **MCMC model (using PyMC3)** to predict enrolment and attrition rates for clinical trials[cite: 20, 11].
+* [cite_start]**Store Site Selection & Demand Forecasting**: Combined **Time Series Forecasting** with **geospatial analysis (Folium, GeoPandas)** to find demand drivers for new store sites[cite: 17, 12].
+* [cite_start]**Next Best Action System**: Implemented **NLP models** for personalized HCP outreach and recommendation[cite: 21].
 
 ---
 
-## Education
+## Technical Stack ⚙️
 
-| Institution                        | Program / Qualification           | Year       | Score |
-|------------------------------------|------------------------------------|-------------|-------|
-| BVDU College of Engineering, Pune | B.Tech Electronics Engineering     | 2012–16   | 70%   |
-| BVDU College of Engineering, Pune | Diploma Network Security           | 2012–15   | 83%   |
-| Army School, Allahabad            | Senior Secondary School            | 2010–11   | 78%   |
-| Army School, Udhampur             | Higher Secondary School            | 2009–10   | 89%   |
+### Generative AI & LLM Expertise
+* **Frameworks**: Langfuse, LangChain, Langgraph, MCP Server
+* **Concepts**: RAG (Retrieval-Augmented Generation), Vector Database, LLM Prompt Engineering
 
+### Machine Learning & Statistical Modelling
+* **Algorithms**: XGBoost, LightGBM, PyMC3, Statsmodels, Clustering (BIRCH), Scikit-learn
+* **Domains**: Time Series Forecasting, Causal Inference, Bayesian Modeling, NLP
 
----
+### Cloud & MLOps Platforms
+* **Cloud**: AWS (EC2, Redshift, Glue, Lambda), GCP (Vertex AI)
+* **MLOps**: Databricks, MLflow, Docker, Git, Jenkins, Trello, Confluence, Jira
+* **Big Data**: PySpark, Pandas, NumPy, ETL Pipelines, SQL (Advanced)
 
-## Key Projects & AI/ML Solutions
-
-- Store site selection and sales forecasting using geospatial analysis and time series forecasting  
-- Product catalogue harmonization using clustering and LLM-based attribute extraction  
-- Developed MCMC-based forecasting models for predicting clinical trial enrolments and attrition rates  
-- Designed custom NLP-driven recommendation models to enhance HCP engagement strategies  
-- Data modelling for enabling BI analytics on Real World Data for pharma  
-- Designed an automated claims processing AI system for insurance, reducing manual efforts by 40%  
-- BDD and TDD test development for integration and UAT phase for an insurance client  
+### Programming & Data Visualization
+* **Programming**: Python, SQL, Java
+* **Visualization**: Tableau, Plotly, Seaborn, Folium, GeoPandas
 
 ---
 
-## Technical Skills
-
-- **Programming:** Python, SQL, Java  
-- **AI/ML & NLP:** Scikit-learn, XGBoost, LightGBM, Spacy, Transformers (BERT, GPT), BIRCH, GenAI, RAG, LLM  
-- **Cloud & Big Data:** AWS (EC2, RDS, Redshift, Glue, IAM), Databricks, PySpark, Snowflake  
-- **Data Engineering & MLOps:** CI/CD for ML, Model Deployment (AWS Lambda, EMR, EC2), MLflow, Langchain, Langflow  
-- **Data Visualization:** Tableau, Plotly, Seaborn  
-
----
-
-## Leadership and Strategic Initiatives
-
-- Managed and mentored 10+ AI/ML professionals, fostering a high-performance data-driven culture  
-- Defined AI roadmaps and strategy for enterprise clients, ensuring AI/ML initiatives drive measurable ROI  
-- Initiated strategy discussions, aligning business objectives with AI adoption goals in the existing projects  
+## Leadership and Strategic Initiatives 📊
+* [cite_start]Directed AI teams of **10+ members** to deliver high-ROI ML solutions[cite: 55].
+* [cite_start]Partnered with stakeholders to define **AI strategy, use case roadmap**, and adoption KPIs for enterprise clients[cite: 57].
+* [cite_start]Built scalable, reproducible **MLOps pipelines** aligned with enterprise architecture[cite: 58].
+* [cite_start]Led large-scale **cloud migration** for legacy data pipelines to **AWS cloud** and defined the success metrics[cite: 59].
+* [cite_start]Resource and timeline estimation for complex cloud solutions and AI-enabled use cases[cite: 60].
 
 ---
 
-**Published Journal**
-- [Rectenne](http://www.journalcra.com/sites/default/files/issue-pdf/13826.pdf) - Introducing wireless powered devices can reduce pollution from hazardous battery chemicals, making mobile devices fully wireless while minimizing environmental interference through proper regulations and establishing safety standards for wireless power applications.
+## Certifications & Education
+
+### Certifications
+* [cite_start]**Certified GenAI Engineer** - Databricks [cite: 42]
+* [cite_start]Certified NLP Developer – Vskills [cite: 43]
+* [cite_start]Certified Python Developer – Vskills [cite: 44]
+* [cite_start]Tableau Certified Author- Tableau [cite: 45]
+* [cite_start]Masters in Applied Data Science I & II – WorldQuant University [cite: 46]
+* [cite_start]Math for Machine Learning – Amazon [cite: 47]
+* [cite_start]Certified Agile – ATA [cite: 48]
+
+### Education
+| Program / Qualification | Institution | Year | Score |
+| :--- | :--- | :--- | :--- |
+| B.Tech, Electronics Engineering | BVDU College of Engineering, Pune | 2016 | 70% |
+| Diploma, Network Security | BVDU College of Engineering, Pune | 2015 | 83% |
+| Senior Secondary | Army School, Allahabad | 2011 | 78% |
+| Higher Secondary | Army School, Udhampur | 2010 | 89% |
 
 ---
 
-### Online Profiles
-- **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
-- **GitHub**: [github/singhvks](https://github.com/singhvks)
+## Contact & Online Profiles
 
----
-
-#### Contact Information
-- **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
-- **LinkedIn**: [linkedin/singhvks](https://www.linkedin.com/in/singhvks)
-
----
-
-### ***Technology Stack***
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" alt="PyTorch Icon" height="48">
-<img src="https://images.plot.ly/logo/new-branding/plotly-logomark.png" alt="Plotly Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" alt="SpaCy Icon" height="48">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Spark Icon" height="48">
-
-![Python Icon](https://img.icons8.com/color/48/000000/python.png)
-![SQL Icon](https://img.icons8.com/color/48/000000/sql.png)
-![TensorFlow Icon](https://img.icons8.com/color/48/000000/tensorflow.png)
-![Tableau Icon](https://img.icons8.com/color/48/000000/tableau-software.png)
-![Excel Icon](https://img.icons8.com/color/48/000000/ms-excel.png)
-![AWS Icon](https://img.icons8.com/color/48/000000/amazon-web-services.png)
-![Git Icon](https://img.icons8.com/color/48/000000/git.png)
-![Docker Icon](https://img.icons8.com/color/48/000000/docker.png)
-![Kubernetes Icon](https://img.icons8.com/color/48/000000/kubernetes.png)
-![CloudFormation Icon](https://img.icons8.com/color/48/000000/amazon-web-services.png)
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" alt="Hadoop Icon" height="48">
+* [cite_start]**Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in) [cite: 3]
+* [cite_start]**LinkedIn**: [linkedin/in/singhvks](https://linkedin.com/in/singhvks) [cite: 3]
+* [cite_start]**Phone**: +91-9403647912 [cite: 3]
 
 ---
