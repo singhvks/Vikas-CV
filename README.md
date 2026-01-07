@@ -111,8 +111,9 @@
 * Certified Agile – ATA 
 
 ### Education
+
 | Program / Qualification | Institution | Year | Score |
-| :--- | :--- | :--- | :--- |
+|------------------------|-------------|------|-------|
 | B.Tech, Electronics Engineering | BVDU College of Engineering, Pune | 2016 | 70% |
 | Diploma, Network Security | BVDU College of Engineering, Pune | 2015 | 83% |
 | Senior Secondary | Army School, Allahabad | 2011 | 78% |
@@ -127,6 +128,7 @@
 * **Phone**: +91-9403647912
 
 ---
+
 
 
 
