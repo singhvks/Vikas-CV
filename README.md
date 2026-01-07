@@ -54,7 +54,8 @@
 
 ---
 
-## Selected Case Studies (./case-studies/)
+## Selected Case Studies
+- [Case Studies](./case-studies/)
 
 ---
 
