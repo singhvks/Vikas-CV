@@ -258,7 +258,7 @@ To control token usage and improve determinism, prompts are constructed using st
 Prompt templates are versioned and managed independently from application code to allow iterative refinement.
 
 ---
-## ## 9. API Design & Contracts
+## 9. API Design & Contracts
 
 The API layer is designed with clear separation between application orchestration and AI execution. All endpoints enforce strict request and response schemas to ensure security, predictability, and downstream compatibility.
 
