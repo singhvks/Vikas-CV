@@ -55,7 +55,7 @@
 ---
 
 ## Selected Case Studies
-- [Category Analytics Agentic Solution](./case-studies/Category-Analytics-Agentic-Solution)
+- [Category Analytics Agentic Solution](./case-studies/Category-Analytics-Agentic-Solution.md)
 
 ---
 
@@ -127,5 +127,6 @@
 * **Phone**: +91-9403647912
 
 ---
+
 
 
