@@ -81,7 +81,7 @@
 
 ### Cloud & MLOps Platforms
 * **Cloud**: AWS (EC2, Redshift, Glue, Lambda), GCP (Vertex AI)
-* **MLOps**: Databricks, MLflow, Docker, Git, Jenkins, Trello, Confluence, Jira
+* **MLOps**: Databricks, MLflow, Docker, Git, Confluence, Jira
 * **Big Data**: PySpark, Pandas, NumPy, ETL Pipelines, SQL (Advanced)
 
 ### Programming & Data Visualization
@@ -127,6 +127,7 @@
 * **Phone**: +91-9403647912
 
 ---
+
 
 
 
