@@ -1,6 +1,6 @@
 # VIKAS KUMAR SINGH
 
-## Professional Summary 🚀
+## Professional Summary
 **Data Science Manager** with **9+ years** of expertise in delivering production-grade **AI/ML** and **Generative AI** solutions across **Retail, Pharmaceutical, and Insurance** industries. Proficient in building scalable ML/GenAI systems, managing large-scale data workflows, and integrating predictive analytics into decision platforms. Strong background in experimentation design, statistical modeling, **MLOps (AWS, Databricks, MLflow)**, and leading cross-functional teams to align ML strategy with business goals.
 
 ---
@@ -90,7 +90,7 @@
 
 ---
 
-## Leadership and Strategic Initiatives 📊
+## Leadership and Strategic Initiatives
 * Directed AI teams of **10+ members** to deliver high-ROI ML solutions.
 * Partnered with stakeholders to define **AI strategy, use case roadmap**, and adoption KPIs for enterprise client.
 * Built scalable, reproducible **MLOps pipelines** aligned with enterprise architecture.
@@ -127,6 +127,7 @@
 * **Phone**: +91-9403647912
 
 ---
+
 
 
 
