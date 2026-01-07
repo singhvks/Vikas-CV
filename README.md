@@ -54,8 +54,7 @@
 
 ---
 
-## Selected Case Studies
-- [Category Analytics Agentic Solution](./case-studies/Category-Analytics-Agentic-Solution.md)
+## Selected Case Studies (./case-studies/)
 
 ---
 
