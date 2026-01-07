@@ -1,4 +1,4 @@
-# Engineering Case Studies
+# Productionized Case Studies
 
 This page presents selected case studies covering production-grade ML and LLM systems designed and implemented under real enterprise constraints. Each case study focuses on architectural decisions, data and model trade-offs, and operational considerations such as cost control, governance, scalability, and reliability.
 
