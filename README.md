@@ -126,7 +126,6 @@
 * **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
 * **LinkedIn**: [linkedin/in/singhvks](https://linkedin.com/in/singhvks)
 
----
 
 
 
