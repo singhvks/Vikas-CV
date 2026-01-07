@@ -54,6 +54,11 @@
 
 ---
 
+## Selected Case Studies
+- [Category Analytics Agentic Solution](./case-studies/Category-Analytics-Agentic-Solution)
+
+---
+
 ## Key AI/ML Projects & Solutions 💡
 
 * **Retail Analytics Multi-Agent System (GenAI)**: Designed an **LLM-based multi-agent architecture** to provide inferential and causal findings for eCommerce sales and marketing analysis.
@@ -122,4 +127,5 @@
 * **Phone**: +91-9403647912
 
 ---
+
 
