@@ -115,6 +115,8 @@ This architecture prioritized decision consistency, extensibility, and governanc
 
 The system follows a modular, service-oriented architecture with strict separation between user-facing services and AI execution. This design enables independent scaling, cost control, and governance of LLM workloads while keeping application latency predictable.
 
+![Architecture Diagram](Architecture Diagram.png)
+
 ### Tech Stack Decisions
 
 The technology stack was selected based on maintainability, team skill alignment, and time-to-market constraints, while ensuring sufficient flexibility for future scaling.
