@@ -103,10 +103,11 @@
 
 ### Certifications
 * **Certified GenAI Engineer** - Databricks
-* Certified NLP Developer – Vskills
-* Certified Python Developer – Vskills
-* Tableau Certified Author- Tableau
-* Masters in Applied Data Science I & II – WorldQuant University
+* **GenAI Solution Architect** - Tredence
+* **Masters in Applied Data Science I & II** – WorldQuant University
+* **Certified NLP Developer** – Vskills
+* **Certified Python Developer** – Vskills
+* **Tableau Certified Author** - Tableau
 * Math for Machine Learning – Amazon
 * Certified Agile – ATA 
 
@@ -125,6 +126,7 @@
 
 * **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
 * **LinkedIn**: [linkedin/in/singhvks](https://linkedin.com/in/singhvks)
+
 
 
 
