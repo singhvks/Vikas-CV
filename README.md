@@ -6,12 +6,12 @@
 ---
 
 ## Core Competencies
-* **Generative AI & LLM Architecture (RAG, Multi-Agent Systems)**
-* **Forecasting (Time Series, Bayesian, Geospatial Analysis)** 
-* **Cloud & MLOps Platforms (AWS, Databricks, MLflow, Docker)** 
-* **Executive Stakeholder Management & AI Strategy Definition** 
-* **Team Leadership & Mentorship (10+ members)**
-* **Scalable Data Engineering (PySpark, SQL, ETL Pipelines)** 
+* **Generative AI & LLM Architecture** (RAG, Multi-Agent Systems)
+* **Forecasting** (Time Series, Bayesian, Geospatial Analysis)
+* **Cloud & MLOps Platforms** (AWS, Databricks, MLflow, Docker)
+* **Executive Stakeholder Management & AI Strategy Definition
+* **Team Leadership & Mentorship (10+ members)
+* **Scalable Data Engineering** (PySpark, SQL, ETL Pipelines)
 
 ---
 
@@ -126,6 +126,7 @@
 
 * **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
 * **LinkedIn**: [linkedin/in/singhvks](https://linkedin.com/in/singhvks)
+
 
 
 
