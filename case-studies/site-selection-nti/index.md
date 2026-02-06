@@ -240,7 +240,7 @@ Example:
 - Eliminated training-serving skew
 
 ### Serving
-- Databricks Model Serving (REST API)
+- Databricks Model Serving
 - Notebook-based UAT with widgets
 - Millisecond inference latency
 
