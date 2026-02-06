@@ -50,8 +50,7 @@ Experienced in building and operating platforms used by large business teams und
 
 ---
 
-## Selected Case Studies
-- [Case Studies](./case-studies/)
+## [Case Studies](./case-studies/)
 
 ### Principal Architect — Multi-Agent GenAI Platform (eCommerce)
 
@@ -152,6 +151,7 @@ Architected a **Databricks Lakehouse** processing **>1TB** of retail, transactio
 ---
 
 Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
