@@ -1,7 +1,3 @@
-
-
-
-
 # Vikas Kumar Singh
 
 **Data Architect | Principal AI Engineer | Databricks GenAI Expert**
@@ -50,36 +46,41 @@ Experienced in building and operating platforms used by large business teams und
 
 ---
 
-## [Case Studies](./case-studies/)
+## Selected Architecture Case Studies  
 
-### Principal Architect — Multi-Agent GenAI Platform (eCommerce)
-
-Designed and implemented a **high-concurrency (>1000 users)** GenAI platform supporting sales analytics, compliance reporting, and decision support.
-
-- FastAPI- and Docker-based multi-agent architecture
-- Unified AI endpoint consumable by **Tableau, Excel, and React** frontends
-- Multi-layer caching and RAG strategies for scale and cost control
-- Enterprise SSO-based access control
-
-**Outcome:**
-
-- Automated **60+ recurring analytical reports**
-- Reduced manual operational effort, delivering **$100K+ annual savings**
+**Production systems designed under real-world scale, governance, and cost constraints**  
+👉 [Read more detailed case studies](./case-studies/)
 
 ---
 
-### Lead Architect — Site Selection & Sales Forecasting (Retail)
+### Principal Architect — Multi-Agent GenAI Analytics Platform (eCommerce)
 
-Architected a **Databricks Lakehouse** processing **>1TB** of retail, transactional, and geospatial data.
+Designed and delivered a **high-concurrency (>1,000 users)** GenAI platform for executive analytics, compliance reporting, and decision support, replacing fragmented manual workflows.
 
-- Medallion-based ingestion and transformation pipelines
-- Unity Catalog–driven governance and lineage
-- MLflow-based model tracking and auditability
+- FastAPI- and Docker-based **multi-agent service architecture**
+- Unified AI endpoint consumed by **Tableau, Excel, and React** frontends
+- Multi-layer caching, RAG strategies, and prompt governance for **cost and latency control**
+- Enterprise SSO–based access control and auditability
 
-**Outcome:**
+**Outcome**
+- Automated **60+ recurring analytical reports**
+- Eliminated manual review cycles, delivering **$100K+ annual cost savings**
 
-- Enabled quantitative benchmarking for new-store feasibility
+---
+
+### Lead Architect — Geospatial ML Site Selection & Sales Forecasting (Retail)
+
+Architected a **Databricks Lakehouse–based geospatial ML platform** to support new-store site selection for a large-scale convenience retail network.
+
+- Medallion architecture processing **>1TB** of transactional, mobility, census, and infrastructure data
+- Spatial feature engineering using **drive-time isochrones and radial trade areas**
+- Cold-start forecasting via clustering-based **statistical twin** modeling
+- **MLflow- and Unity Catalog–driven governance**, lineage, and model lifecycle management
+
+**Outcome**
+- Standardized quantitative benchmarking for new-store feasibility
 - Reduced site approval decision cycles by **~70%**
+- Enabled explainable, defensible forecasts for CAPEX decisions
 
 ---
 
@@ -151,6 +152,7 @@ Architected a **Databricks Lakehouse** processing **>1TB** of retail, transactio
 ---
 
 Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
