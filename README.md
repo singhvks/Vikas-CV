@@ -1,6 +1,6 @@
 # Vikas Kumar Singh
 
-**Data Architect | Principal AI Engineer | Databricks GenAI Expert**
+**Data Architect • Principal AI Engineer • Databricks GenAI Expert**
 
 Bangalore, India (Open to Relocation)
 
@@ -88,7 +88,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ### Tredence Analytics — Data Science Manager
 
-*Bangalore, India | Nov 2024 – Present*
+*Bangalore, India • Nov 2024 – Present*
 
 - Lead architect for enterprise AI and data platform initiatives
 - Managed and mentored a **cross-functional team of engineers and data scientists**
@@ -99,7 +99,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ### ZS Associates — Business Technology Solutions Consultant
 
-*Pune, India | Sep 2020 – May 2024*
+*Pune, India • Sep 2020 – May 2024*
 
 - Designed AWS Glue ETL pipelines integrated with **Bayesian (MCMC) forecasting models** for clinical supply planning
 - Implemented **MLflow-based model monitoring** and production serving via SAP-IBP
@@ -109,7 +109,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ### Collabera Technologies — Data Engineer
 
-*Pune, India | Sep 2020 – Apr 2021*
+*Pune, India • Sep 2020 – Apr 2021*
 
 - Built Spark-based pipelines for large-scale healthcare datasets
 - Developed unified Real-World Data (RWD) models for analytics
@@ -119,7 +119,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ### LTI Mindtree — Engineer
 
-*Pune, India | Sep 2016 – May 2020*
+*Pune, India • Sep 2016 – May 2020*
 
 - Developed API-integrated ML systems for insurance policy recommendations
 - Built automated high-throughput API testing frameworks
@@ -152,6 +152,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 ---
 
 Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
