@@ -164,8 +164,6 @@ Each model prioritized different spatial and demographic drivers.
 
 This provided contextual grounding before regression.
 
-![Architecture Diagram](solutionDiagram.png)
-
 ---
 
 ## 9. Training Strategy
@@ -309,4 +307,8 @@ Example:
 ---
 
 ### High-Level Architecture
+
+![Architecture Diagram](solutionDiagram.png)
+
+---
 
