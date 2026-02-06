@@ -1,131 +1,158 @@
-# VIKAS KUMAR SINGH
 
-## Professional Summary
-**Principal AI Engineer** with nearly **10 years** of expertise in delivering production-grade **AI/ML** and **Generative AI** solutions across **Retail, Pharmaceutical, and Insurance** industries. Proficient in building scalable ML/GenAI systems, managing large-scale data workflows, and integrating predictive analytics into decision platforms. Strong background in experimentation design, statistical modeling, **MLOps (AWS, Databricks, MLflow)**, and leading cross-functional teams to align ML strategy with business goals.
 
----
 
-## Core Competencies
-* **Generative AI & LLM Architecture** (RAG, Multi-Agent Systems)
-* **Forecasting** (Time Series, Bayesian, Geospatial Analysis)
-* **Cloud & MLOps Platforms** (AWS, Databricks, MLflow, Docker)
-* **Executive Stakeholder Management & AI Strategy Contributions**
-* **Team Leadership & Mentorship** (15+ members)
-* **Scalable Data Engineering** (PySpark, SQL, ETL Pipelines)
 
----
+# Vikas Kumar Singh
 
-## Professional Experience
+**Data Architect | Principal AI Engineer | Databricks GenAI Expert**
 
-### **Tredence Analytics**
-**Manager – Data Science** | *Nov 2024 – Present*
-* Designing the technical roadmap and architecture for end-to-end AI/ML solution delivery, optimizing existing retail planning and store operations.
-* Architecting the **GenAI integration and platform readiness** for Category Performance Analysis.
-* Deployed machine learning models enabling a forecasting accuracy of **60%** for new proposed sites across multiple sales categories.
-* Built and deployed **ML pipelines** using **Databricks and MLflow**, enabling automated training, evaluation, and monitoring.
-* Collaborated with international business teams across the US to integrate model outcomes into planning system.
+Bangalore, India (Open to Relocation)
+
+📧 singhvks@outlook.in 🔗 [LinkedIn](https://linkedin.com/in/singhvks) · [Portfolio](https://singhvks.github.io/Vikas-CV)
+
+Legal & Work Authorization: EU HSM–eligible (Netherlands), UAE employment visa support feasible
 
 ---
 
-### **ZS Associates**
-**Business Technology Solutions Consultant** | *Apr 2021 – Aug 2024*
-* Delivered commercial analytics and ML solutions for top-tier pharma clients, leveraging **AWS-based infrastructure**.
-* Designed and implemented **A/B testing** strategies and **causal inference** workflows for model validation and iteration.
-* Owned the end-to-end ML solution lifecycle: data engineering, model building, deployment, monitoring, and retraining.
-* Led development of NLP models for personalized **HCP outreach (Next Best Action System)**.
-* Directed AI teams of **10+ members** to deliver high-ROI ML solutions.
+## Profile
+
+Principal Data Architect and AI Engineering Manager with **9+ years of experience** designing and delivering **enterprise-scale data platforms and AI systems**. Deep specialization in the **Databricks Lakehouse ecosystem**, including **Unity Catalog governance**, **Mosaic AI**, and **production-grade GenAI systems**.
+
+Experienced in building and operating platforms used by large business teams under **strict regulatory and data privacy constraints** (GDPR, HIPAA, FTC). Work spans **high-scale architectures**, long-lived data products, and globally distributed teams.
 
 ---
 
-### **Collabera Technologies**
-**Data Engineer** | *Sep 2020 – Apr 2021*
-* Built scalable **Spark-based pipelines** for ingesting multi-format healthcare and insurance datasets.
-* Enabled a **unified data model** utilized for Real World Data assessment.
-* Enabled exploratory data analysis through custom-built BI tools using **Plotly and Jupyter**.
-* Reduced the time for overall analysis by **40%** compared to the earlier manual process.
+## Core Expertise
 
----
+### Data & Platform Architecture
 
-### **LTI Mindtree**
-**Engineer** | *Sep 2016 – May 2020*
-* Developed API-integrated machine learning models to support insurance policy breakdown cover **recommendation**.
-* Built real-time monitoring tools and conducted regular model performance reviews to ensure system stability.
-* Managed end-to-end AI-driven automation workflows, collaborating with business and QA teams.
+- Databricks Lakehouse (Medallion Architecture)
+- Unity Catalog, Delta Lake
+- Enterprise Data Modeling
+
+### Generative AI & Applied ML
+
+- Mosaic AI
+- Multi-Agent Systems (LangChain, LangGraph)
+- Vector Databases
+- RAG Architecture & Cost Optimization
+
+### Engineering & MLOps
+
+- Python (FastAPI, Async)
+- PySpark, Advanced SQL
+- Docker, MLflow, Langflow
+- CI/CD and Model Lifecycle Management
+
+### Cloud Platforms
+
+- AWS (Glue, Redshift), Azure OpenAI, GCP Airflow
 
 ---
 
 ## Selected Case Studies
 - [Case Studies](./case-studies/)
 
----
+### Principal Architect — Multi-Agent GenAI Platform (eCommerce)
 
-## Key AI/ML Projects & Solutions 💡
+Designed and implemented a **high-concurrency (>1000 users)** GenAI platform supporting sales analytics, compliance reporting, and decision support.
 
-* **Retail Analytics Multi-Agent System (GenAI)**: Designed an **LLM-based multi-agent architecture** to provide inferential and causal findings for eCommerce sales and marketing analysis.
-* **GenAI Product Harmonization**: Utilized **LLM + clustering** for attribute extraction to unify retail catalog data, improving data quality and search.
-* **Bayesian Clinical Trial Forecasting**: Developed an **MCMC model (using PyMC3)** to predict enrolment and attrition rates for clinical trials.
-* **Store Site Selection & Demand Forecasting**: Combined **Time Series Forecasting** with **geospatial analysis (Folium, GeoPandas)** to find demand drivers for new store sites.
-* **Next Best Action System**: Implemented **NLP models** for personalized HCP outreach and recommendation.
+- FastAPI- and Docker-based multi-agent architecture
+- Unified AI endpoint consumable by **Tableau, Excel, and React** frontends
+- Multi-layer caching and RAG strategies for scale and cost control
+- Enterprise SSO-based access control
 
----
+**Outcome:**
 
-## Technical Stack ⚙️
-
-### Generative AI & LLM Expertise
-* **Frameworks**: Langfuse, LangChain, Langgraph, MCP Server
-* **Concepts**: RAG (Retrieval-Augmented Generation), Vector Database, LLM Prompt Engineering
-
-### Machine Learning & Statistical Modelling
-* **Algorithms**: XGBoost, LightGBM, PyMC3, Statsmodels, Clustering (BIRCH), Scikit-learn
-* **Domains**: Time Series Forecasting, Causal Inference, Bayesian Modeling, NLP
-
-### Cloud & MLOps Platforms
-* **Cloud**: AWS (EC2, Redshift, Glue, Lambda), GCP (Vertex AI)
-* **MLOps**: Databricks, MLflow, Docker, Git, Confluence, Jira
-* **Big Data**: PySpark, Pandas, NumPy, ETL Pipelines, SQL (Advanced)
-
-### Programming & Data Visualization
-* **Programming**: Python, SQL, Java
-* **Visualization**: Tableau, Plotly, Seaborn, Folium, GeoPandas
+- Automated **60+ recurring analytical reports**
+- Reduced manual operational effort, delivering **$100K+ annual savings**
 
 ---
 
-## Leadership and Strategic Initiatives
-* Directed AI teams of **10+ members** to deliver high-ROI ML solutions.
-* Partnered with stakeholders to define **AI strategy, use case roadmap**, and adoption KPIs for enterprise client.
-* Built scalable, reproducible **MLOps pipelines** aligned with enterprise architecture.
-* Led large-scale **cloud migration** for legacy data pipelines to **AWS cloud** and defined the success metrics.
-* Resource and timeline estimation for complex cloud solutions and AI-enabled use cases.
+### Lead Architect — Site Selection & Sales Forecasting (Retail)
+
+Architected a **Databricks Lakehouse** processing **>1TB** of retail, transactional, and geospatial data.
+
+- Medallion-based ingestion and transformation pipelines
+- Unity Catalog–driven governance and lineage
+- MLflow-based model tracking and auditability
+
+**Outcome:**
+
+- Enabled quantitative benchmarking for new-store feasibility
+- Reduced site approval decision cycles by **~70%**
 
 ---
 
-## Certifications & Education
+## Professional Experience
 
-### Certifications
-* **Certified GenAI Engineer** - Databricks
-* **GenAI Solution Architect** - Tredence
-* **Masters in Applied Data Science I & II** – WorldQuant University
-* **Certified NLP Developer** – Vskills
-* **Certified Python Developer** – Vskills
-* **Tableau Certified Author** - Tableau
-* Math for Machine Learning – Amazon
-* Certified Agile – ATA 
+### Tredence Analytics — Data Science Manager
 
-### Education
+*Bangalore, India | Nov 2024 – Present*
 
-| Program / Qualification | Institution | Year | Score |
-|------------------------|-------------|------|-------|
-| B.Tech, Electronics Engineering | BVDU College of Engineering, Pune | 2016 | 70% |
-| Diploma, Network Security | BVDU College of Engineering, Pune | 2015 | 83% |
-| Senior Secondary | Army School, Allahabad | 2011 | 78% |
-| Higher Secondary | Army School, Udhampur | 2010 | 89% |
+- Lead architect for enterprise AI and data platform initiatives
+- Managed and mentored a **cross-functional team of engineers and data scientists**
+- Led migration from legacy AWS pipelines to **Databricks Lakehouse**
+- Implemented cost governance and workload optimization to control DBU spend
 
 ---
 
-## Contact & Online Profiles
+### ZS Associates — Business Technology Solutions Consultant
 
-* **Email**: [singhvks@outlook.in](mailto:singhvks@outlook.in)
-* **LinkedIn**: [linkedin/in/singhvks](https://linkedin.com/in/singhvks)
+*Pune, India | Sep 2020 – May 2024*
+
+- Designed AWS Glue ETL pipelines integrated with **Bayesian (MCMC) forecasting models** for clinical supply planning
+- Implemented **MLflow-based model monitoring** and production serving via SAP-IBP
+- Migrated EDLS pipelines with data quality checks and automated alerting
+
+---
+
+### Collabera Technologies — Data Engineer
+
+*Pune, India | Sep 2020 – Apr 2021*
+
+- Built Spark-based pipelines for large-scale healthcare datasets
+- Developed unified Real-World Data (RWD) models for analytics
+- Implemented PII masking and access controls for **HIPAA compliance**
+
+---
+
+### LTI Mindtree — Engineer
+
+*Pune, India | Sep 2016 – May 2020*
+
+- Developed API-integrated ML systems for insurance policy recommendations
+- Built automated high-throughput API testing frameworks
+- Implemented on-prem ETL pipelines supporting **GDPR and solvency compliance**
+
+---
+
+## Certifications
+
+- **Databricks Certified GenAI Engineer (2025)**
+- Certified NLP Developer — Vskills
+- Certified Python Developer — Vskills
+- **Master’s in Applied Data Science I & II — WorldQuant University**
+- Math for Machine Learning — Amazon
+
+---
+
+## Education
+
+- **B.Tech, Electronics Engineering** — BVDU College of Engineering, Pune (2016)
+- Diploma, Network Security — BVDU College of Engineering, Pune (2015)
+- Secondary Education — Army School, Allahabad (2011)
+
+---
+
+## Languages
+
+- English — Full Professional Proficiency (C2)
+
+---
+
+Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
