@@ -68,8 +68,6 @@ Build a **data-driven site selection engine** that:
 
 ---
 
----
-
 ## 4. Data Landscape
 
 ### Data Sources
@@ -165,6 +163,8 @@ Each model prioritized different spatial and demographic drivers.
 3. Map NTI site → statistical twin
 
 This provided contextual grounding before regression.
+
+![Architecture Diagram](solutionDiagram.png)
 
 ---
 
