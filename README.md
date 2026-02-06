@@ -53,7 +53,7 @@ Experienced in building and operating platforms used by large business teams und
 
 ---
 
-### Principal Architect — Multi-Agent GenAI Analytics Platform (eCommerce)
+### Principal Architect - Multi-Agent GenAI Analytics Platform (eCommerce)
 
 Designed and delivered a **high-concurrency (>1,000 users)** GenAI platform for executive analytics, compliance reporting, and decision support, replacing fragmented manual workflows.
 
@@ -68,7 +68,7 @@ Designed and delivered a **high-concurrency (>1,000 users)** GenAI platform for 
 
 ---
 
-### Lead Architect — Geospatial ML Site Selection & Sales Forecasting (Retail)
+### Lead Architect - Geospatial ML Site Selection & Sales Forecasting (Retail)
 
 Architected a **Databricks Lakehouse–based geospatial ML platform** to support new-store site selection for a large-scale convenience retail network.
 
@@ -86,7 +86,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ## Professional Experience
 
-### Tredence Analytics — Data Science Manager
+### Tredence Analytics - Data Science Manager
 
 *Bangalore, India • Nov 2024 – Present*
 
@@ -97,7 +97,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-### ZS Associates — Business Technology Solutions Consultant
+### ZS Associates - Business Technology Solutions Consultant
 
 *Pune, India • Sep 2020 – May 2024*
 
@@ -107,7 +107,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-### Collabera Technologies — Data Engineer
+### Collabera Technologies - Data Engineer
 
 *Pune, India • Sep 2020 – Apr 2021*
 
@@ -117,7 +117,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-### LTI Mindtree — Engineer
+### LTI Mindtree - Engineer
 
 *Pune, India • Sep 2016 – May 2020*
 
@@ -130,28 +130,29 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 ## Certifications
 
 - **Databricks Certified GenAI Engineer (2025)**
-- Certified NLP Developer — Vskills
-- Certified Python Developer — Vskills
-- **Master’s in Applied Data Science I & II — WorldQuant University**
-- Math for Machine Learning — Amazon
+- Certified NLP Developer - Vskills
+- Certified Python Developer - Vskills
+- **Master’s in Applied Data Science I & II - WorldQuant University**
+- Math for Machine Learning - Amazon
 
 ---
 
 ## Education
 
-- **B.Tech, Electronics Engineering** — BVDU College of Engineering, Pune (2016)
-- Diploma, Network Security — BVDU College of Engineering, Pune (2015)
-- Secondary Education — Army School, Allahabad (2011)
+- **B.Tech, Electronics Engineering** - BVDU College of Engineering, Pune (2016)
+- Diploma, Network Security - BVDU College of Engineering, Pune (2015)
+- Secondary Education - Army School, Allahabad (2011)
 
 ---
 
 ## Languages
 
-- English — Full Professional Proficiency (C2)
+- English - Full Professional Proficiency (C2)
 
 ---
 
 Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
