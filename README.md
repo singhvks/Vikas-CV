@@ -99,7 +99,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ### ZS Associates - Business Technology Solutions Consultant
 
-*Pune, India • Sep 2020 – May 2024*
+*Pune, India • Apr 2021 – May 2024*
 
 - Designed AWS Glue ETL pipelines integrated with **Bayesian (MCMC) forecasting models** for clinical supply planning
 - Implemented **MLflow-based model monitoring** and production serving via SAP-IBP
@@ -152,6 +152,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 ---
 
 Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+
 
 
 
