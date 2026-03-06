@@ -6,15 +6,13 @@ Bangalore, India (Open to Relocation)
 
 📧 singhvks@outlook.in 🔗 [LinkedIn](https://linkedin.com/in/singhvks) · [Portfolio](https://singhvks.github.io/Vikas-CV)
 
-Legal & Work Authorization: EU HSM–eligible (Netherlands), UAE employment visa support feasible
-
 ---
 
 ## Profile
 
-Principal Data Architect and AI Engineering Manager with **9+ years of experience** designing and delivering **enterprise-scale data platforms and AI systems**. Deep specialization in the **Databricks Lakehouse ecosystem**, including **Unity Catalog governance**, **Mosaic AI**, and **production-grade GenAI systems**.
+Principal Data Architect and AI Engineering Manager with **10 years of experience** designing and delivering **enterprise-scale data platforms and AI systems**. Deep specialization in the **Databricks Lakehouse ecosystem**, including **Unity Catalog governance**, **Mosaic AI**, and **production-grade GenAI systems** in both cloud native and cloud agnostic solutions.
 
-Experienced in building and operating platforms used by large business teams under **strict regulatory and data privacy constraints** (GDPR, HIPAA, FTC). Work spans **high-scale architectures**, long-lived data products, and globally distributed teams.
+Experienced in building and operating platforms used by large business teams under **strict regulatory and data privacy constraints** (GDPR, HIPAA, DPL). Work spans **high-scale architectures**, long-lived data products, and globally distributed teams.
 
 ---
 
@@ -25,10 +23,11 @@ Experienced in building and operating platforms used by large business teams und
 - Databricks Lakehouse (Medallion Architecture)
 - Unity Catalog, Delta Lake
 - Enterprise Data Modeling
+- Data Quality Metrics Pipelines
 
 ### Generative AI & Applied ML
 
-- Mosaic AI
+- Agent Platforms : Databricks Mosaic AI, GCP : Vertex AI, Azure : OpenAI
 - Multi-Agent Systems (LangChain, LangGraph)
 - Vector Databases
 - RAG Architecture & Cost Optimization
@@ -42,7 +41,7 @@ Experienced in building and operating platforms used by large business teams und
 
 ### Cloud Platforms
 
-- AWS (Glue, Redshift), Azure OpenAI, GCP Airflow
+- AWS (Glue, Redshift, IAM, EC2), Azure OpenAI, GCP Airflow
 
 ---
 
@@ -72,7 +71,7 @@ Designed and delivered a **high-concurrency (>1,000 users)** GenAI platform for 
 
 Architected a **Databricks Lakehouse–based geospatial ML platform** to support new-store site selection for a large-scale convenience retail network.
 
-- Medallion architecture processing **>1TB** of transactional, mobility, census, and infrastructure data
+- Medallion architecture processing **>1TB** of transactional, mobility, US census, and infrastructure data
 - Spatial feature engineering using **drive-time isochrones and radial trade areas**
 - Cold-start forecasting via clustering-based **statistical twin** modeling
 - **MLflow- and Unity Catalog–driven governance**, lineage, and model lifecycle management
@@ -91,7 +90,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 *Bangalore, India • Nov 2024 – Present*
 
 - Lead architect for enterprise AI and data platform initiatives
-- Managed and mentored a **cross-functional team of engineers and data scientists**
+- Managed and mentored a **cross-functional team of Analysts, ML engineers, data engineers and data scientists**
 - Led migration from legacy AWS pipelines to **Databricks Lakehouse**
 - Implemented cost governance and workload optimization to control DBU spend
 
@@ -101,9 +100,9 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 *Pune, India • Apr 2021 – May 2024*
 
-- Designed AWS Glue ETL pipelines integrated with **Bayesian (MCMC) forecasting models** for clinical supply planning
-- Implemented **MLflow-based model monitoring** and production serving via SAP-IBP
-- Migrated EDLS pipelines with data quality checks and automated alerting
+- Designed AWS Glue ETL pipelines integrated with **Bayesian (MCMC) forecasting models** for clinical trial safety stock planning
+- Implemented **next best action** recommendation model interfacing Veeva CRM.Also enabled model monitoring and feature drift response using MLflow
+- Migrated EDLS pipelines with data quality checks and automated alerting to AWS glue
 
 ---
 
@@ -111,29 +110,33 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 *Pune, India • Sep 2020 – Apr 2021*
 
-- Built Spark-based pipelines for large-scale healthcare datasets
-- Developed unified Real-World Data (RWD) models for analytics
-- Implemented PII masking and access controls for **HIPAA compliance**
+- Built Spark-based HIPAA compliant data pipelines for large-scale public and licensed healthcare datasets. Enabling their linking with direct and labelled data processing fuzzy processes
+- Developed unified Real-World Data (RWD) analytics dashboard with zero cost overhead for organization
+- Implemented PII masking and randomization and access controls for **HIPAA compliant** data analytics
 
 ---
 
-### LTI Mindtree - Engineer
+### L&T Infotech - Engineer
 
 *Pune, India • Sep 2016 – May 2020*
 
-- Developed API-integrated ML systems for insurance policy recommendations
-- Built automated high-throughput API testing frameworks
-- Implemented on-prem ETL pipelines supporting **GDPR and solvency compliance**
+- Developed API-integrated ML systems for insurance policy recommendations for system at scale with A/B testing enabled success measurement
+- Built automated high-throughput API testing frameworks for analyzing server response
+- Implemented on-prem ETL pipelines supporting **GDPR and solvency compliance** assessment for generated documents
 
 ---
 
 ## Certifications
 
+- **GenAI Solutions Architect (2026)**
 - **Databricks Certified GenAI Engineer (2025)**
+- AI/ML for Geodata Analysis - ISRO
 - Certified NLP Developer - Vskills
 - Certified Python Developer - Vskills
 - **Master’s in Applied Data Science I & II - WorldQuant University**
+- Certified Tableau Author - Tableau
 - Math for Machine Learning - Amazon
+- Agile Methodology - ATA
 
 ---
 
@@ -151,7 +154,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-Currently open to senior individual contributor or principal-level roles in EU and Middle East technology teams.
+Currently open to senior individual contributor or principal-level roles in India, EU and Middle East technology teams.
 
 
 

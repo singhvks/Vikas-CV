@@ -1,6 +1,6 @@
 # Productionized Case Studies
 
-This page presents selected case studies covering production-grade ML and LLM systems designed and implemented under real enterprise constraints. Each case study focuses on architectural decisions, data and model trade-offs, and operational considerations such as cost control, governance, scalability, and reliability.
+Here I have listed implementation designs covering production-grade ML and LLM systems designed and implemented under real enterprise constraints. Each case study focuses on architectural decisions, data and model trade-offs, and operational considerations such as cost control, governance, scalability, and reliability.
 
 ---
 
@@ -19,7 +19,7 @@ The system standardizes narrative insights across multiple business dimensions w
 - **Governance mechanisms** including caching, rate limiting, and budget controls for sustained LLM usage
 
 **Design Philosophy**  
-This system was intentionally built as a **batch-oriented, enterprise-grade analytics platform**, prioritizing consistency, explainability, and operational reliability over real-time inference. The LLM augments human decision-making rather than replacing core BI or financial controls.
+This system was built as a **batch-oriented, enterprise-grade analytics platform**, prioritizing consistency, explainability, and operational reliability over real-time inference. The LLM augments human decision-making rather than replacing core BI or financial controls.
 
 ➡️ **[Read full case study →](./category-analytics-agentic/)**
 
