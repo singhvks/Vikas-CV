@@ -5,7 +5,7 @@
 Bangalore, India (Open to Relocation)
 
 <sub>
-📧 <a href="mailto:singhvks@outlook.in">Email</a> · <a href="https://linkedin.com/in/singhvks">LinkedIn</a> · <a href="https://singhvks.github.io/Vikas-CV">Portfolio</a> · 💻 <a href="https://github.com/singhvks">GitHub</a> · 📄 <a href="https://docs.google.com/document/d/11OjIFbDzcC5HEaH8fNTcz9s0yuA8DcL5y7fUuhaeESU/preview">View CV</a> · ⬇️ <a href="https://docs.google.com/document/d/11OjIFbDzcC5HEaH8fNTcz9s0yuA8DcL5y7fUuhaeESU/export?format=pdf">Download PDF</a>
+📧 <a href="mailto:singhvks@outlook.in">Email</a> · <a href="https://linkedin.com/in/singhvks">LinkedIn</a> · <a href="https://singhvks.github.io/Vikas-CV">Portfolio</a> · 💻 <a href="https://github.com/singhvks">GitHub</a> · 📄 <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/preview">View CV</a> · ⬇️ <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/export?format=pdf">Download PDF</a>
 </sub>
 
 ---
