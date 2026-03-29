@@ -18,15 +18,16 @@ title: Vikas Kumar Singh | Principal AI Engineer
 
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>Principal Data Architect and AI Engineering Manager with <strong>10 years of experience</strong> designing and delivering <strong>enterprise-scale data platforms and AI systems</strong>. Deep specialization in the <strong>Databricks Lakehouse ecosystem</strong>, including <strong>Unity Catalog governance</strong>, <strong>Mosaic AI</strong>, and <strong>production-grade GenAI systems</strong>.</p>
+    <p>AI Engineering Manager with <strong>10 years of experience</strong> designing and delivering <strong>enterprise-scale data platforms and AI systems</strong>. Deep specialization in the <strong>Databricks Lakehouse ecosystem</strong>, including <strong>Unity Catalog governance</strong>, <strong>Mosaic AI</strong>, and <strong>production-grade GenAI systems</strong>.</p>
 </section>
 
 <section class="glass-card">
     <h2>Core Expertise</h2>
     <div class="expertise-grid">
         <div class="exp-item">
-            <h3>Data Architecture</h3>
+            <h3>Data Platforms</h3>
             <ul>
+                <li>AWS Glue</li>
                 <li>Databricks Lakehouse</li>
                 <li>Unity Catalog, Delta Lake</li>
                 <li>Enterprise Data Modeling</li>
@@ -36,7 +37,9 @@ title: Vikas Kumar Singh | Principal AI Engineer
             <h3>Generative AI</h3>
             <ul>
                 <li>Multi-Agent Systems</li>
-                <li>RAG Architecture</li>
+                <li>Mosaic AI</li>
+                <li>Vertex AI</li>
+                <li>RAG</li>
                 <li>Vector Databases</li>
             </ul>
         </div>
@@ -45,6 +48,7 @@ title: Vikas Kumar Singh | Principal AI Engineer
             <ul>
                 <li>Python (FastAPI, Async)</li>
                 <li>PySpark, MLOps</li>
+                <li>Docker, Kubernetes</li>
                 <li>CI/CD & Model Lifecycle</li>
             </ul>
         </div>
@@ -54,14 +58,14 @@ title: Vikas Kumar Singh | Principal AI Engineer
 <section>
     <h2>Selected Case Studies</h2>
     <div class="case-study-card">
-        <h3>Principal Architect - Multi-Agent GenAI Platform</h3>
+        <h3>Multi-Agent GenAI Platform</h3>
         <p>Designed and delivered a high-concurrency (>1,000 users) GenAI platform for executive analytics and compliance reporting.</p>
         <a href="./case-studies/category-analytics-agentic/" class="cta-button">Read Case Study</a>
     </div>
 
     <div class="case-study-card">
-        <h3>Lead Architect - Geospatial ML Site Selection</h3>
-        <p>Architected a Databricks Lakehouse–based geospatial ML platform processing >1TB of data for retail forecasting.</p>
+        <h3>Geospatial ML Site Selection</h3>
+        <p>Designed and delivered a Databricks Lakehouse–based geospatial ML platform processing >1TB of data for retail forecasting.</p>
         <a href="./case-studies/site-selection-nti/" class="cta-button">Read Case Study</a>
     </div>
     
@@ -75,7 +79,7 @@ title: Vikas Kumar Singh | Principal AI Engineer
     <h3>Tredence Analytics - Data Science Manager</h3>
     <p><em>Bangalore, India • Nov 2024 – Present</em></p>
     <ul>
-        <li>Lead architect for enterprise AI and data platform initiatives.</li>
+        <li>Architecting enterprise AI solutions and data platform initiatives.</li>
         <li>Led migration from legacy AWS pipelines to Databricks Lakehouse.</li>
         <li>Implemented cost governance and workload optimization to control DBU spend.</li>
     </ul>
