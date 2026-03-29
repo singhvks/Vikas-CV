@@ -1,0 +1,94 @@
+.liquid-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  background: var(--bg-dark);
+
+  .blob {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.15;
+    animation: drift 30s infinite alternate-reverse;
+  }
+
+  .blob-1 {
+    background: #4facfe;
+    top: -100px;
+    right: -100px;
+    animation-duration: 25s;
+  }
+
+  .blob-2 {
+    background: #00f2fe;
+    bottom: -150px;
+    left: -150px;
+    animation-duration: 35s;
+    animation-delay: -5s;
+  }
+
+  .blob-3 {
+    background: #3a7bd5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-duration: 45s;
+    animation-delay: -10s;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(100px, 50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-50px, 100px) scale(0.9);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4 {
+  color: #fff;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem; }
+h3 { font-size: 1.5rem; }
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
+
+ul {
+  padding-left: 1.2rem;
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
