@@ -12,7 +12,8 @@ title: Vikas Kumar Singh | Principal AI Engineer
         <a href="mailto:singhvks@outlook.in">Email</a> · 
         <a href="https://linkedin.com/in/singhvks">LinkedIn</a> · 
         <a href="https://github.com/singhvks">GitHub</a> · 
-        <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/preview">View CV</a>
+        <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/preview">View CV</a> .
+        <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/export?format=pdf">Download PDF</a>
     </div>
 </section>
 
