@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Vikas Kumar Singh | Principal AI Engineer
+title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 ---
 
 <section class="profile-section glass-card">
     <h1>Vikas Kumar Singh</h1>
-    <p class="subtitle"><strong>Data Architect • Principal AI Engineer • GenAI Expert</strong></p>
-    <p>Bangalore, India</p>
-    
+    <p class="subtitle"><strong>AI Systems Architect &amp; Engineering Leader</strong></p>
+    <p>Bangalore, India &nbsp;·&nbsp; Open to Relocation</p>
+
     <div class="social-links">
         <a href="mailto:singhvks@outlook.in">Email</a> · 
         <a href="https://linkedin.com/in/singhvks">LinkedIn</a> · 
@@ -17,40 +17,74 @@ title: Vikas Kumar Singh | Principal AI Engineer
     </div>
 </section>
 
+<section class="glass-card impact-stats-panel">
+    <h2>Business Impact at a Glance</h2>
+    <div class="stats-grid">
+        <div class="stat-item">
+            <span class="stat-number">$2B</span>
+            <span class="stat-label">Supply chain waste prevented</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">$50M+</span>
+            <span class="stat-label">Monthly CAPEX decisions informed</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">40 FTE</span>
+            <span class="stat-label">Manual reporting automated</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">22×</span>
+            <span class="stat-label">Query latency improvement (45s → &lt;2s)</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">65%</span>
+            <span class="stat-label">LLM inference cost reduction</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">$1M+</span>
+            <span class="stat-label">Annual system overhead eliminated</span>
+        </div>
+    </div>
+</section>
+
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>Principal Data Architect and AI Engineering Manager with <strong>10 years of experience</strong> designing and delivering <strong>enterprise-scale data platforms and AI systems</strong>. Deep specialization in the <strong>Databricks Lakehouse ecosystem</strong>, including <strong>Unity Catalog governance</strong>, <strong>Mosaic AI</strong>, and <strong>production-grade GenAI systems</strong>.</p>
+    <p>AI Systems Architect and Engineering Leader with <strong>10 years of experience</strong> designing and delivering <strong>production-grade AI platforms, multi-agent systems, and enterprise-scale data infrastructure</strong> for Fortune 500 clients across pharma, retail, eCommerce, and healthcare.</p>
+    <p>Consulting background across ZS Associates, L&amp;T Infotech, and Tredence Analytics — working directly with client leadership teams to translate complex data and AI initiatives into quantifiable business outcomes. Deep specialisation in <strong>GenAI system architecture</strong>, <strong>Databricks Lakehouse</strong>, and <strong>LLM cost and quality governance</strong> at enterprise scale.</p>
+    <p>Operates end-to-end: architect, design, build, ship, scale — with track record of enabling distributed engineering teams of 12–28 engineers across concurrent enterprise engagements.</p>
 </section>
 
 <section class="glass-card">
     <h2>Core Expertise</h2>
     <div class="expertise-grid">
         <div class="exp-item">
+            <h3>GenAI &amp; LLM Systems</h3>
+            <ul>
+                <li>Multi-Agent Orchestration</li>
+                <li>RAG Architecture &amp; Retrieval Optimisation</li>
+                <li>LLM-as-Judge Evaluation Frameworks</li>
+                <li>Token Budgeting &amp; Cost Governance</li>
+                <li>Prompt Engineering &amp; Output Validation</li>
+            </ul>
+        </div>
+        <div class="exp-item">
             <h3>Data Platforms</h3>
             <ul>
+                <li>Databricks Lakehouse (Medallion Architecture)</li>
+                <li>Unity Catalog &amp; Delta Lake</li>
+                <li>PySpark — billion-row pipelines</li>
                 <li>AWS Glue, Redshift</li>
-                <li>Databricks Lakehouse</li>
-                <li>Unity Catalog, Delta Lake</li>
-                <li>Enterprise Data Modeling</li>
+                <li>Enterprise Data Modelling &amp; OLAP</li>
             </ul>
         </div>
         <div class="exp-item">
-            <h3>Generative AI</h3>
+            <h3>Engineering &amp; MLOps</h3>
             <ul>
-                <li>Multi-Agent Systems</li>
-                <li>Mosaic AI, Vertex AI</li>
-                <li>Azure OpenAI</li>
-                <li>RAG Architecture</li>
-                <li>Vector Databases</li>
-            </ul>
-        </div>
-        <div class="exp-item">
-            <h3>Engineering</h3>
-            <ul>
-                <li>Python (FastAPI, Async)</li>
-                <li>PySpark, MLOps</li>
+                <li>Async FastAPI (concurrent, batching, pooling)</li>
                 <li>Docker, Kubernetes</li>
-                <li>CI/CD & Model Lifecycle</li>
+                <li>MLflow — model lifecycle &amp; governance</li>
+                <li>CI/CD &amp; Automated Compliance Validation</li>
+                <li>Regulated Systems: HIPAA / GDPR / Solvency II</li>
             </ul>
         </div>
     </div>
@@ -58,18 +92,22 @@ title: Vikas Kumar Singh | Principal AI Engineer
 
 <section>
     <h2>Selected Case Studies</h2>
+    <p><strong>Production systems designed under real-world scale, governance, and cost constraints.</strong></p>
+
     <div class="case-study-card">
-        <h3>Principal Architect - Multi-Agent GenAI Platform</h3>
-        <p>Designed and delivered a high-concurrency (>1,000 users) GenAI platform for executive analytics and compliance reporting, delivering $100K+ annual savings.</p>
-        <a href="./case-studies/category-analytics-agentic/" class="cta-button">Read Case Study</a>
+        <div class="case-study-impact">$100K/yr saved &nbsp;·&nbsp; 40 FTE automated &nbsp;·&nbsp; 1,000+ concurrent users &nbsp;·&nbsp; 65% inference cost reduction</div>
+        <h3>Principal Architect — Multi-Agent GenAI Analytics Platform</h3>
+        <p>Designed and delivered a production-grade GenAI platform for executive analytics and compliance reporting at a large-scale eCommerce client. Automated 60 weekly reports, replaced 40 FTE of manual analysis, and cut LLM inference costs from $8 to $2.50 per request through semantic caching and dynamic model routing.</p>
+        <a href="./case-studies/category-analytics-agentic/" class="cta-button">Read Case Study →</a>
     </div>
 
     <div class="case-study-card">
-        <h3>Lead Architect - Geospatial ML Site Selection</h3>
-        <p>Architected a Databricks Lakehouse–based geospatial ML platform processing >1TB of data, reducing site approval cycles by ~70%.</p>
-        <a href="./case-studies/site-selection-nti/" class="cta-button">Read Case Study</a>
+        <div class="case-study-impact">$50M+/month CAPEX informed &nbsp;·&nbsp; 70% faster approvals &nbsp;·&nbsp; 22× latency improvement &nbsp;·&nbsp; 15% accuracy lift vs 3rd-party</div>
+        <h3>Lead Architect — Geospatial ML Site Selection &amp; Sales Forecasting</h3>
+        <p>Architected a Databricks Lakehouse–based geospatial ML platform for a $10B+ convenience retailer (2,500+ locations), replacing intuition-driven real estate decisions with a standardised, explainable forecasting engine. Reduced site approval cycles from 3 weeks to 5 days and directly informed $50M+ in monthly CAPEX allocation decisions.</p>
+        <a href="./case-studies/site-selection-nti/" class="cta-button">Read Case Study →</a>
     </div>
-    
+
     <div style="text-align: center; margin-top: 2rem;">
         <a href="./case-studies/" style="font-weight: 600;">View All Case Studies →</a>
     </div>
@@ -77,44 +115,44 @@ title: Vikas Kumar Singh | Principal AI Engineer
 
 <section class="glass-card">
     <h2>Professional Experience</h2>
-    
+
     <div class="exp-job">
-        <h3>Tredence Analytics - Data Science Manager</h3>
-        <p><em>Bangalore, India • Nov 2024 – Present</em></p>
+        <h3>Tredence Analytics — Data Science Manager &amp; Principal AI Architect</h3>
+        <p><em>Bangalore, India &nbsp;·&nbsp; Nov 2024 – Present</em></p>
         <ul>
-            <li>Lead architect for enterprise AI and data platform initiatives, managing cross-functional teams.</li>
-            <li>Led migration from legacy AWS pipelines to Databricks Lakehouse.</li>
-            <li>Implemented cost governance and workload optimization to control DBU spend.</li>
+            <li>Designed and owned a multi-modal analytics platform (FastAPI + Databricks) for a large eCommerce client: architected for <strong>1,000+ concurrent users at &lt;100ms latency</strong>; replaced 40 FTE manual reporting with agentic workflow orchestration (60 reports/week automated). Economic impact: <strong>$100K/year</strong> operational overhead elimination.</li>
+            <li>Implemented cost-governance layer (token budgeting, semantic caching, dynamic LLM routing): cut inference costs <strong>65%</strong> ($8 → $2.50/request) while maintaining output quality; scaled architecture to <strong>10K concurrent users</strong>.</li>
+            <li>Owned 1TB+ geospatial Lakehouse: migrated from schema-on-read Hive to star-schema Delta + Unity Catalog; designed dynamic partitioning for <strong>200M geospatial features</strong>. Query latency: <strong>45s → &lt;2s (22× improvement)</strong>. Site-selection approval cycles: <strong>3 weeks → 5 days (70% acceleration)</strong>. Direct business impact: <strong>$50M+ CAPEX allocation decisions informed monthly</strong>.</li>
+            <li>Led cloud migration from legacy on-prem ETL to AWS Glue + Databricks. Designed compute governance framework (auto-scaling, workload isolation, cost allocation by business unit). Result: <strong>30% cloud cost reduction</strong>, eliminated <strong>$1M/year</strong> system maintenance overhead.</li>
+            <li>Served as <strong>SME and implementation architect</strong> for GenAI/Analytics solutions — driving platform readiness, team enablement, and phased solution rollout across client engagements.</li>
         </ul>
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>ZS Associates - Business Technology Solutions Consultant</h3>
-        <p><em>Pune, India • Apr 2021 – May 2024</em></p>
+        <h3>ZS Associates — Business Technology Solutions Consultant, AI Systems</h3>
+        <p><em>Pune, India &nbsp;·&nbsp; Apr 2021 – May 2024</em></p>
         <ul>
-            <li>Designed AWS Glue ETL pipelines integrated with Bayesian (MCMC) forecasting models.</li>
-            <li>Implemented Next Best Action recommendation models interfacing Veeva CRM with MLflow monitoring.</li>
-            <li>Migrated EDLS pipelines with automated data quality checks and alerting to AWS Glue.</li>
+            <li>Architected demand forecasting engine for a <strong>$10B+ pharmaceutical client</strong>: chose Bayesian MCMC over standard econometrics for native uncertainty quantification and faster convergence on irregular clinical patterns. Owned end-to-end: model R&amp;D, Spark feature pipeline (<strong>500M+ SKU-day pairs</strong>), inference orchestration, MLOps. Economic outcome: <strong>$2B supply chain waste prevention over 5 years</strong>.</li>
+            <li>Implemented Spark-based next-best-action recommendation engine for MSL engagement, interfacing Veeva CRM with MLflow model monitoring and feature drift response.</li>
+            <li>Scaled AI delivery organisation: built MLOps platform (MLflow versioning, automated model validation, A/B testing, audit logging) enabling <strong>28 distributed engineers to ship 6 concurrent enterprise projects</strong> without workflow bottlenecks. Built compliance automation layer ensuring HIPAA/GDPR validation on every model commit.</li>
         </ul>
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>Collabera Technologies - Data Engineer</h3>
-        <p><em>Pune, India • Sep 2020 – Apr 2021</em></p>
+        <h3>Collabera Technologies — Data Engineer</h3>
+        <p><em>Pune, India &nbsp;·&nbsp; Sep 2020 – Apr 2021</em></p>
         <ul>
-            <li>Built Spark-based HIPAA compliant data pipelines for large-scale healthcare datasets.</li>
-            <li>Developed unified Real-World Data (RWD) analytics dashboard with zero cost overhead.</li>
-            <li>Implemented PII masking and access controls for HIPAA-compliant analytics.</li>
+            <li>Architected HIPAA-compliant Real-World Data (RWD) platform: PII detection, field-level encryption, audit logging. Processed <strong>500M+ healthcare records/day</strong> while maintaining &lt;10MB per-patient data footprint. Integrated Komodo data for HCP scoring.</li>
+            <li>Eliminated BI tool vendor dependency (<strong>$2M+ contract cycle</strong>): engineered custom Python analytics layer with sub-second response on aggregate queries across 100M+ patient records.</li>
         </ul>
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>L&T Infotech - Engineer</h3>
-        <p><em>Pune, India • Sep 2016 – May 2020</em></p>
+        <h3>L&amp;T Infotech — Engineer</h3>
+        <p><em>Pune, India &nbsp;·&nbsp; Sep 2016 – May 2020</em></p>
         <ul>
-            <li>Developed API-integrated ML systems for insurance policy recommendations with A/B testing.</li>
-            <li>Built automated high-throughput API testing frameworks.</li>
-            <li>Implemented on-prem ETL pipelines supporting GDPR and solvency compliance.</li>
+            <li>Owned ML-driven insurance risk platform: API-integrated model serving at <strong>sub-50ms inference SLA</strong>, multi-armed bandit A/B testing framework for 10+ concurrent models, feature store for <strong>500+ features with drift detection</strong>.</li>
+            <li>Engineered GDPR/Solvency II compliant Spark ETL: immutable transaction logs, cryptographic data lineage, automated compliance validation on every pipeline run.</li>
         </ul>
     </div>
 </section>
@@ -123,11 +161,14 @@ title: Vikas Kumar Singh | Principal AI Engineer
     <section class="glass-card">
         <h2>Certifications</h2>
         <ul style="font-size: 0.9rem;">
-            <li><strong>GenAI Solutions Architect (2026)</strong></li>
+            <li><strong>Generative AI Solutions Architect (2025)</strong></li>
             <li><strong>Databricks Certified GenAI Engineer (2025)</strong></li>
-            <li>AI/ML for Geodata Analysis - ISRO</li>
-            <li>Master’s in Applied Data Science - WorldQuant University</li>
-            <li>Certified NLP & Python Developer</li>
+            <li>AI/ML for Geodata Analysis — ISRO</li>
+            <li>Master's in Applied Data Science — WorldQuant University</li>
+            <li>Certified NLP Developer — Vskills</li>
+            <li>Certified Python Developer — Vskills</li>
+            <li>Certified Tableau Author — Tableau</li>
+            <li>Math for Machine Learning — Amazon</li>
         </ul>
     </section>
 
@@ -135,7 +176,8 @@ title: Vikas Kumar Singh | Principal AI Engineer
         <h2>Education</h2>
         <ul style="font-size: 0.9rem;">
             <li><strong>B.Tech, Electronics Engineering</strong><br>BVDU College of Engineering, Pune (2016)</li>
-            <li><strong>Diploma, Network Security</strong><br>BVDU College of Engineering (2015)</li>
+            <li><strong>Master of Science, Applied Data Science</strong><br>WorldQuant University (2021)</li>
+            <li>Diploma, Network Security<br>BVDU College of Engineering (2015)</li>
         </ul>
     </section>
 </div>

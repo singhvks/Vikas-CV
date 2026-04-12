@@ -1,49 +1,57 @@
-# Productionized Case Studies
+# Case Studies
 
-Here I have listed implementation designs covering production-grade ML and LLM systems designed and implemented under real enterprise constraints. Each case study focuses on architectural decisions, data and model trade-offs, and operational considerations such as cost control, governance, scalability, and reliability.
+Production-grade AI and ML systems designed and implemented under real enterprise constraints — scale, cost, governance, and client accountability. Each case study documents architectural decisions, data and model trade-offs, and operational considerations including cost control, explainability, and regulatory compliance.
 
 ---
 
-### Case Study 1: LLM-Augmented Weekly Business Review (WBR) System
+## Case Study 1: Multi-Agent GenAI Analytics Platform
+
+**Client Engagement:** Large-scale eCommerce client  
+**Role:** Principal Architect  
+**Impact:** $100K/yr saved · 40 FTE automated · 65% inference cost reduction · 1,000+ concurrent users
 
 **Objective**  
-Design and deploy a scalable, cost-controlled LLM-augmented analytics system to automate weekly and monthly executive business reviews, replacing manual, error-prone analysis workflows used by category managers and senior leadership.
-
-The system standardizes narrative insights across multiple business dimensions while operating on **TB-scale transactional data**, with strict requirements around **interpretability, reproducibility, and budget governance**.
+Design and deploy a scalable, cost-controlled multi-agent GenAI platform to automate weekly and monthly executive business reviews for category managers and senior leadership, replacing manual, error-prone analysis workflows operating on TB-scale transactional data.
 
 **What this case study covers**
 - Designing an **OLAP-first analytics pipeline** for high-volume, multi-dimensional reporting
-- Feature engineering under **enterprise reporting and data-consistency constraints**
-- **LLM selection, prompt design, and cost/latency trade-offs** at scale
-- **FastAPI-based service separation** between analytics, application logic, and AI inference
-- **Governance mechanisms** including caching, rate limiting, and budget controls for sustained LLM usage
+- **Custom async routing architecture**: evaluated LangGraph, selected a purpose-built FastAPI async router for lower latency at production scale
+- **LLM-as-Judge evaluation framework** and human-in-the-loop output quality pipeline
+- **Cost-governance architecture**: semantic caching, token budgeting, dynamic model routing — achieving 65% inference cost reduction ($8 → $2.50/request)
+- **FastAPI service separation** between analytics, application logic, and AI inference
+- Scaled to support **10,000 concurrent users** with sub-100ms latency targets
 
 **Design Philosophy**  
-This system was built as a **batch-oriented, enterprise-grade analytics platform**, prioritizing consistency, explainability, and operational reliability over real-time inference. The LLM augments human decision-making rather than replacing core BI or financial controls.
+Built as a **batch-oriented, enterprise-grade analytics platform** prioritising consistency, explainability, and operational reliability over real-time inference. The LLM augments human decision-making rather than replacing core business controls.
 
 ➡️ **[Read full case study →](./category-analytics-agentic/)**
 
-### Case Study 2: Geospatial ML–Driven New Store Site Selection & Sales Forecasting
+---
+
+## Case Study 2: Geospatial ML — New Store Site Selection &amp; Sales Forecasting
+
+**Client Engagement:** $10B+ convenience &amp; prepared foods retailer (2,500+ locations)  
+**Role:** Lead Architect  
+**Impact:** $50M+/month CAPEX informed · 70% faster approval cycles (3 weeks → 5 days) · 22× query latency improvement · 15% accuracy lift vs 3rd-party tool
 
 **Objective**  
-Design and deploy a production-grade geospatial machine learning system to support **New-to-Industry (NTI) retail site selection** for a **$10B+ convenience and prepared foods retailer (2,500+ locations)**.  
-The goal was to replace decentralized, intuition-driven real estate decisions with a **standardized, explainable, and scalable forecasting engine** capable of estimating **3-year category-wise sales** from a simple latitude/longitude input.
+Design and deploy a production-grade geospatial ML system to support new-store site selection, replacing decentralised, intuition-driven real estate decisions with a **standardised, explainable, and scalable forecasting engine** capable of estimating 3-year category-wise sales from a latitude/longitude input.
 
-The system directly informs **multi-million dollar CAPEX decisions**, where errors translate into long-term lease risk and irreversible investment commitments.
+The system directly informs **$50M+ monthly CAPEX allocation decisions**, where errors translate into long-term lease risk and irreversible investment commitments.
 
 **What this case study covers**
-- Large-scale **geospatial feature engineering** across census, mobility, traffic, and infrastructure datasets using **Spark on Databricks**
-- Designing a **dual trade-area framework** (drive-time isochrones and radial distances) to model real-world accessibility and customer behavior
-- **Cold-start modeling strategies** for NTI locations using clustering-based “statistical twins”
-- Multi-vertical **XGBoost forecasting architecture** (fuel, diesel, prepared food, grocery)
-- **Explainability-first ML design** using SHAP to support executive trust and auditability
-- Production deployment using **MLflow, Delta Lake, and serverless model serving**, with cost and drift governance
+- Large-scale **geospatial feature engineering** (200M+ features) across census, mobility, traffic, and infrastructure datasets using Spark on Databricks
+- **Dual trade-area framework** (drive-time isochrones + radial distances) for real-world accessibility modelling
+- **Cold-start modelling** via clustering-based statistical twins for new-to-industry sites
+- Multi-vertical XGBoost forecasting (fuel, diesel, prepared food, grocery) with SHAP explainability
+- Migration from schema-on-read Hive to **star-schema Delta + Unity Catalog**: query latency from 45s → &lt;2s (22× improvement)
+- Production deployment using **MLflow, Delta Lake, and serverless model serving**
 
 **Design Philosophy**  
-This system was intentionally built as a **spatial-first, cross-sectional modeling platform**, prioritizing *where* a store is over *when* it opens. Architectural choices favored **interpretability, reproducibility, and operational scalability** over purely academic modeling approaches, ensuring the solution could be trusted and adopted by real estate and finance leadership at enterprise scale.
+Built as a **spatial-first, cross-sectional modelling platform** prioritising interpretability, reproducibility, and operational scalability. Architectural choices ensured the solution could be trusted and adopted by real estate and finance leadership at enterprise scale.
 
 ➡️ **[Read full case study →](./site-selection-nti/)**
 
 ---
 
-*(More case studies will be added here, covering ML platforms, LLM pipelines, and large-scale data engineering systems.)*
+*(Additional case studies covering enterprise demand forecasting, MLOps platforms, and LLM pipeline architecture will be added.)*
