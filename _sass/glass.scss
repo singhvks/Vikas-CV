@@ -103,3 +103,11 @@ body.dark-mode {
   color: var(--text-dim);
   font-size: 0.9rem;
 }
+
+// Prevent images from overflowing their container
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
