@@ -198,6 +198,7 @@ Time-based splits are appropriate for forecasting models where temporal leakage 
 - Aligns evaluation to capital allocation risk, not statistical convenience
 
 ### Benchmarking Results
+
 | Benchmark | Accuracy |
 |-----------|----------|
 | 3rd-party industry tool (baseline) | ~50% |
