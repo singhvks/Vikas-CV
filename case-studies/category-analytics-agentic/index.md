@@ -33,7 +33,7 @@ However, generating these insights required manual exploration of multiple dashb
 - Did not scale as the number of categories and regions grew
 - Risked inconsistent or biased interpretation across teams
 
-Stakeholders included category managers, regional managers, and sales &amp; marketing leadership (VP level), all of whom required fast, reliable, and explainable insights.
+Stakeholders included category managers, regional managers, and sales &amp; marketing leadership up to VP and C-suite level — with weekly platform outputs consumed directly by senior leadership for budget allocation and incentive planning decisions worth tens of millions annually.
 
 **Objective:** Automate performance analysis across multiple dimensions, surface actionable insights, and reduce dependency on manual reporting while maintaining strict cost and latency constraints.
 
@@ -106,7 +106,8 @@ Model selection was decoupled from application logic through an abstraction laye
 
 The system follows a modular, service-oriented architecture with strict separation between user-facing services and AI execution, enabling independent scaling, cost control, and governance.
 
-![Architecture Diagram](Architecture Diagram.png)
+![Architecture Diagram](architecture-diagram.png)
+
 
 ### Technology Stack Decisions
 

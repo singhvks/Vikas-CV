@@ -24,7 +24,8 @@ Design and deploy a scalable, cost-controlled multi-agent GenAI platform to auto
 **Design Philosophy**  
 Built as a **batch-oriented, enterprise-grade analytics platform** prioritising consistency, explainability, and operational reliability over real-time inference. The LLM augments human decision-making rather than replacing core business controls.
 
-➡️ **[Read full case study →](./category-analytics-agentic/)**
+➡️ **[Read full case study →]({{ '/case-studies/category-analytics-agentic/' | relative_url }})**
+
 
 ---
 
@@ -50,7 +51,35 @@ The system directly informs **$50M+ monthly CAPEX allocation decisions**, where 
 **Design Philosophy**  
 Built as a **spatial-first, cross-sectional modelling platform** prioritising interpretability, reproducibility, and operational scalability. Architectural choices ensured the solution could be trusted and adopted by real estate and finance leadership at enterprise scale.
 
-➡️ **[Read full case study →](./site-selection-nti/)**
+➡️ **[Read full case study →]({{ '/case-studies/site-selection-nti/' | relative_url }})**
+
+
+---
+
+## Case Study 3: Bayesian MCMC Clinical Trial Enrollment Forecasting — Oncology Supply Chain
+
+**Client Engagement:** Global Pharmaceutical Client (Top-10 Oncology Biopharma) — Phase 2/3 clinical trials  
+**Role:** ML Engineer & Data Engineering Lead · MLOps Architect  
+**Impact:** ~$2B projected supply waste avoidable · 2× heuristic replaced by 63% MAE forecast (first-ever quantitative model) · 8 trials · 40 countries · 3-year supply plan horizon
+
+**Objective**  
+Design and deploy a **site-level probabilistic enrollment forecasting system** for BMS oncology trials (including Opdivo and Sotyktu), replacing a blanket 2× over-ordering safety stock heuristic with a Bayesian MCMC model that generates 80% confidence enrollment projections per site, per country, for a 3-year forward horizon — feeding directly into SAP IBP for drug and placebo supply planning.
+
+The problem required solving for **patient attrition, site-level data sparsity, blinded trial supply complexity, and cross-site patient transfers tracked via IRT**, at a scale of 40 countries and 80+ trial sites simultaneously.
+
+**What this case study covers**
+- **Gamma-Poisson Bayesian inference**: site-level enrollment modelled as a Poisson process with Gamma-distributed rate — enabling native probabilistic uncertainty quantification from sparse monthly data (1–5 patients/site/month)
+- **Hierarchical MCMC prior elicitation**: country × TA × phase × indication distribution fitting with fallback cascade for cold-start sites (PyMC3 NUTS sampler, 2000 samples, 90% burn-in)
+- **Bayesian conjugate reforecasting**: mid-trial posterior updates using IRT actuals (Gamma(α+k, β+v)) — no model retraining required
+- **IRT-based patient transfer reconciliation**: engineering layer to distinguish true attrition from inter-site patient transfers using patient tracking IDs and dropout reason codes
+- **AWS data platform**: Glue ETL pipelines, 3-zone S3 data lake, MICE imputation, CloudWatch monitoring
+- **Enterprise integration**: flat-file monthly batch delivery to SAP IBP for supply planning; Veeva Vault writeback; MLflow model governance
+
+**Design Philosophy**  
+Built as a **Bayesian-first, hierarchical probabilistic system** where uncertainty is a first-class output. The 80% credible interval — not a point forecast — is the primary deliverable, enabling supply planners to make defensible safety stock decisions without systematic over-ordering.
+
+➡️ **[Read full case study →]({{ '/case-studies/mcmc-clinical-trial-enrollment/' | relative_url }})**
+
 
 ---
 

@@ -273,7 +273,7 @@ Example output delivered to real estate leadership:
 
 - **$50M+ monthly CAPEX allocation decisions** informed by the model
 - **70% reduction** in site approval cycle (3 weeks → 5 days)
-- **15% accuracy lift** over industry-standard 3rd-party tool — which the client subsequently decommissioned
+- **15% accuracy lift** over industry-standard 3rd-party tool — which the client subsequently decommissioned following a formal CFO and Real Estate leadership review
 - **Standardised national expansion strategy** — consistent, defensible criteria applied across all geographies
 - Millions in avoided CAPEX risk from sites that would have received approval without quantitative scoring
 

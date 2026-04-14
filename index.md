@@ -6,7 +6,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 <section class="profile-section glass-card">
     <h1>Vikas Kumar Singh</h1>
     <p class="subtitle"><strong>AI Systems Architect &amp; Engineering Leader</strong></p>
-    <p>Bangalore, India &nbsp;·&nbsp; Open to Relocation</p>
+    <p>Bangalore, India &nbsp;·&nbsp; Actively seeking senior AI roles in the UAE &amp; globally &nbsp;·&nbsp; Open to relocation</p>
 
     <div class="social-links">
         <a href="mailto:singhvks@outlook.in">Email</a> · 
@@ -22,15 +22,15 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
     <div class="stats-grid">
         <div class="stat-item">
             <span class="stat-number">$2B</span>
-            <span class="stat-label">Supply chain waste prevented</span>
+            <span class="stat-label">Projected drug supply waste avoidance (10-yr pharma programme)</span>
         </div>
         <div class="stat-item">
             <span class="stat-number">$50M+</span>
             <span class="stat-label">Monthly CAPEX decisions informed</span>
         </div>
         <div class="stat-item">
-            <span class="stat-number">40 FTE</span>
-            <span class="stat-label">Manual reporting automated</span>
+            <span class="stat-number">28</span>
+            <span class="stat-label">Engineers led across cross-org programmes</span>
         </div>
         <div class="stat-item">
             <span class="stat-number">22×</span>
@@ -49,9 +49,9 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>AI Systems Architect and Engineering Leader with <strong>10 years of experience</strong> designing and delivering <strong>production-grade AI platforms, multi-agent systems, and enterprise-scale data infrastructure</strong> for Fortune 500 clients across pharma, retail, eCommerce, and healthcare.</p>
-    <p>Consulting background across ZS Associates, L&amp;T Infotech, and Tredence Analytics — working directly with client leadership teams to translate complex data and AI initiatives into quantifiable business outcomes. Deep specialisation in <strong>GenAI system architecture</strong>, <strong>Databricks Lakehouse</strong>, and <strong>LLM cost and quality governance</strong> at enterprise scale.</p>
-    <p>Operates end-to-end: architect, design, build, ship, scale — with track record of enabling distributed engineering teams of 12–28 engineers across concurrent enterprise engagements.</p>
+    <p>AI Systems Architect specialising in <strong>probabilistic forecasting, enterprise ML platform design, and GenAI system delivery</strong> for regulated, high-stakes industries — pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
+    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Operated across the full delivery stack — from statistical model design through data engineering pipelines to enterprise integration (SAP IBP, Veeva Vault, Databricks).</p>
+    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics — owning architecture, delivery, and stakeholder accountability from requirements through production.</p>
 </section>
 
 <section class="glass-card">
@@ -98,20 +98,23 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
         <div class="case-study-impact">$100K/yr saved &nbsp;·&nbsp; 40 FTE automated &nbsp;·&nbsp; 1,000+ concurrent users &nbsp;·&nbsp; 65% inference cost reduction</div>
         <h3>Principal Architect — Multi-Agent GenAI Analytics Platform</h3>
         <p>Designed and delivered a production-grade GenAI platform for executive analytics and compliance reporting at a large-scale eCommerce client. Automated 60 weekly reports, replaced 40 FTE of manual analysis, and cut LLM inference costs from $8 to $2.50 per request through semantic caching and dynamic model routing.</p>
-        <a href="./case-studies/category-analytics-agentic/" class="cta-button">Read Case Study →</a>
+        <a href="{{ '/case-studies/category-analytics-agentic/' | relative_url }}" class="cta-button">Read Case Study →</a>
+
     </div>
 
     <div class="case-study-card">
         <div class="case-study-impact">$50M+/month CAPEX informed &nbsp;·&nbsp; 70% faster approvals &nbsp;·&nbsp; 22× latency improvement &nbsp;·&nbsp; 15% accuracy lift vs 3rd-party</div>
         <h3>Lead Architect — Geospatial ML Site Selection &amp; Sales Forecasting</h3>
         <p>Architected a Databricks Lakehouse–based geospatial ML platform for a $10B+ convenience retailer (2,500+ locations), replacing intuition-driven real estate decisions with a standardised, explainable forecasting engine. Reduced site approval cycles from 3 weeks to 5 days and directly informed $50M+ in monthly CAPEX allocation decisions.</p>
-        <a href="./case-studies/site-selection-nti/" class="cta-button">Read Case Study →</a>
+        <a href="{{ '/case-studies/site-selection-nti/' | relative_url }}" class="cta-button">Read Case Study →</a>
+
     </div>
 
     <div style="text-align: center; margin-top: 2rem;">
-        <a href="./case-studies/" style="font-weight: 600;">View All Case Studies →</a>
+        <a href="{{ '/case-studies/' | relative_url }}" style="font-weight: 600;">View All Case Studies →</a>
     </div>
 </section>
+
 
 <section class="glass-card">
     <h2>Professional Experience</h2>
