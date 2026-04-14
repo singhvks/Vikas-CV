@@ -12,16 +12,16 @@ Bangalore, India &nbsp;·&nbsp; Open to Relocation (India / Middle East)
 
 ## Business Impact
 
-| Metric | Value |
-|--------|-------|
-| Supply chain waste prevented | **$2B** over 5 years |
-| Monthly CAPEX allocation decisions informed | **$50M+** |
-| Annual system maintenance overhead eliminated | **$1M+** |
-| BI vendor licensing eliminated | **$2M+** |
-| Manual reporting FTEs automated | **40 FTE** |
-| LLM inference cost reduction | **65%** ($8 → $2.50/request) |
-| Query latency improvement | **22×** (45s → <2s) |
-| Site-selection approval cycle reduction | **70%** (3 weeks → 5 days) |
+| Metric                                        | Value                        |
+| --------------------------------------------- | ---------------------------- |
+| Supply chain waste prevented                  | **$2B** over 5 years         |
+| Monthly CAPEX allocation decisions informed   | **$50M+**                    |
+| Annual system maintenance overhead eliminated | **$1M+**                     |
+| BI vendor licensing eliminated                | **$2M+**                     |
+| Manual reporting FTEs automated               | **40 FTE**                   |
+| LLM inference cost reduction                  | **65%** ($8 → $2.50/request) |
+| Query latency improvement                     | **22×** (45s → <2s)          |
+| Site-selection approval cycle reduction       | **70%** (3 weeks → 5 days)   |
 
 ---
 
@@ -29,9 +29,9 @@ Bangalore, India &nbsp;·&nbsp; Open to Relocation (India / Middle East)
 
 AI Systems Architect and Engineering Leader with **10 years of experience** designing and delivering **production-grade AI platforms, multi-agent systems, and enterprise-scale data infrastructure** for Fortune 500 clients in pharma, retail, eCommerce, and healthcare.
 
-Consulting background across ZS Associates, L&T Infotech, and Tredence Analytics — working directly with client leadership teams to translate complex data and AI initiatives into quantifiable business outcomes. Deep specialisation in **GenAI system architecture**, **Databricks Lakehouse**, and **LLM cost and quality governance** at enterprise scale.
+Consulting background across ZS Associates, L&T Infotech, and Tredence Analytics - working directly with client leadership teams to translate complex data and AI initiatives into quantifiable business outcomes. Deep specialisation in **GenAI system architecture**, **Databricks Lakehouse**, and **LLM cost and quality governance** at enterprise scale.
 
-Operates end-to-end: architect, design, build, ship, scale — with a track record of enabling distributed engineering teams of 12–28 engineers across concurrent enterprise engagements.
+Operates end-to-end: architect, design, build, ship, scale - with a track record of enabling distributed engineering teams of 12–28 engineers across concurrent enterprise engagements.
 
 ---
 
@@ -48,7 +48,7 @@ Operates end-to-end: architect, design, build, ship, scale — with a track reco
 ### Data &amp; Platform Architecture
 
 - Databricks Lakehouse (Medallion Architecture, Unity Catalog, Delta Lake)
-- PySpark — billion-row pipelines, dynamic partitioning
+- PySpark - billion-row pipelines, dynamic partitioning
 - Enterprise Data Modelling (OLAP, star schema, geospatial features)
 - AWS (Glue, Redshift, SageMaker), GCP (Vertex AI, BigQuery), Azure OpenAI
 
@@ -56,7 +56,7 @@ Operates end-to-end: architect, design, build, ship, scale — with a track reco
 
 - Async FastAPI (concurrent request handling, batching, connection pooling)
 - Docker, Kubernetes, CI/CD
-- MLflow — model versioning, A/B testing, drift detection, audit logging
+- MLflow - model versioning, A/B testing, drift detection, audit logging
 - Regulated Systems: HIPAA / GDPR / Solvency II compliance architecture
 
 ---
@@ -68,15 +68,15 @@ Operates end-to-end: architect, design, build, ship, scale — with a track reco
 
 ---
 
-### Principal Architect — Multi-Agent GenAI Analytics Platform (eCommerce)
+### Principal Architect - Multi-Agent GenAI Analytics Platform (eCommerce)
 
 **Client:** Large-scale eCommerce client &nbsp;·&nbsp; **Impact:** $100K/yr saved · 40 FTE automated · 65% inference cost reduction
 
 Designed and delivered a production-grade GenAI platform for executive analytics and compliance reporting, replacing fragmented manual workflows across category managers and senior leadership.
 
 - Async FastAPI–based **multi-agent service architecture**, decoupled AI service from application logic
-- Replaced 40 FTE of manual analysis with agentic orchestration — **60 reports/week** automated
-- **Cost-governance layer**: token budgeting, semantic caching, dynamic LLM routing — cut inference cost from **$8 → $2.50/request** (65% reduction)
+- Replaced 40 FTE of manual analysis with agentic orchestration - **60 reports/week** automated
+- **Cost-governance layer**: token budgeting, semantic caching, dynamic LLM routing - cut inference cost from **$8 → $2.50/request** (65% reduction)
 - **Custom async routing layer** (benchmarked against LangGraph; custom implementation selected for lower latency at scale)
 - **LLM-as-Judge evaluation framework** with human-in-the-loop review pipeline for output quality assurance
 - Scaled to **10,000 concurrent users**; designed for sub-100ms latency at 1,000+ concurrent users
@@ -88,7 +88,7 @@ Designed and delivered a production-grade GenAI platform for executive analytics
 
 ---
 
-### Lead Architect — Geospatial ML Site Selection &amp; Sales Forecasting (Retail)
+### Lead Architect - Geospatial ML Site Selection &amp; Sales Forecasting (Retail)
 
 **Client:** $10B+ convenience &amp; prepared foods retailer (2,500+ locations) &nbsp;·&nbsp; **Impact:** $50M+/month CAPEX informed · 70% faster approvals
 
@@ -111,7 +111,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ## Professional Experience
 
-### Tredence Analytics — Data Science Manager &amp; Principal AI Architect
+### Tredence Analytics - Data Science Manager &amp; Principal AI Architect
 
 *Bangalore, India · Nov 2024 – Present*
 
@@ -119,11 +119,11 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 - Implemented cost-governance layer (token budgeting, semantic caching, dynamic LLM routing): cut inference costs **65%** ($8 → $2.50/request) while maintaining output quality; scaled architecture to **10K concurrent users**.
 - Owned 1TB+ geospatial Lakehouse: migrated from schema-on-read Hive to star-schema Delta + Unity Catalog; designed dynamic partitioning for **200M geospatial features**. Query latency: **45s → &lt;2s (22× improvement)**. Site-selection approval cycles: **3 weeks → 5 days (70% acceleration)**. Direct business impact: **$50M+ CAPEX allocation decisions informed monthly**.
 - Led cloud migration from legacy on-prem ETL to AWS Glue + Databricks: **30% cloud cost reduction**, eliminated **$1M/year** system maintenance overhead.
-- Served as **SME and implementation architect** for GenAI/Analytics solutions — driving platform readiness, team enablement, and phased rollout across client engagements.
+- Served as **SME and implementation architect** for GenAI/Analytics solutions - driving platform readiness, team enablement, and phased rollout across client engagements.
 
 ---
 
-### ZS Associates — Business Technology Solutions Consultant, AI Systems
+### ZS Associates - Business Technology Solutions Consultant, AI Systems
 
 *Pune, India · Apr 2021 – May 2024*
 
@@ -133,7 +133,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-### Collabera Technologies — Data Engineer
+### Collabera Technologies - Data Engineer
 
 *Pune, India · Sep 2020 – Apr 2021*
 
@@ -142,7 +142,7 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ---
 
-### L&amp;T Infotech — Engineer
+### L&amp;T Infotech - Engineer
 
 *Pune, India · Sep 2016 – May 2020*
 
@@ -155,23 +155,23 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 - **Generative AI Solutions Architect (2025)**
 - **Databricks Certified GenAI Engineer (2025)**
-- AI/ML for Geodata Analysis — ISRO
-- Master of Science, Applied Data Science — WorldQuant University (2021)
-- Certified NLP Developer — Vskills
-- Certified Python Developer — Vskills
-- Certified Tableau Author — Tableau
-- Math for Machine Learning — Amazon
+- AI/ML for Geodata Analysis - ISRO
+- Master of Science, Applied Data Science - WorldQuant University (2021)
+- Certified NLP Developer - Vskills
+- Certified Python Developer - Vskills
+- Certified Tableau Author - Tableau
+- Math for Machine Learning - Amazon
 
 ---
 
 ## Education
 
-- **B.Tech, Electronics Engineering** — BVDU College of Engineering, Pune (2016)
-- **Master of Science, Applied Data Science** — WorldQuant University (2021)
-- Diploma, Network Security — BVDU College of Engineering, Pune (2015)
+- **B.Tech, Electronics Engineering** - BVDU College of Engineering, Pune (2016)
+- **Master of Science, Applied Data Science** - WorldQuant University (2021)
+- Diploma, Network Security - BVDU College of Engineering, Pune (2015)
 
 ---
 
 ## Languages
 
-- English — Full Professional Proficiency (C2)
+- English - Full Professional Proficiency (C2)

@@ -1,6 +1,6 @@
 # Case Studies
 
-Production-grade AI and ML systems designed and implemented under real enterprise constraints — scale, cost, governance, and client accountability. Each case study documents architectural decisions, data and model trade-offs, and operational considerations including cost control, explainability, and regulatory compliance.
+Production-grade AI and ML systems designed and implemented under real enterprise constraints - scale, cost, governance, and client accountability. Each case study documents architectural decisions, data and model trade-offs, and operational considerations including cost control, explainability, and regulatory compliance.
 
 ---
 
@@ -17,7 +17,7 @@ Design and deploy a scalable, cost-controlled multi-agent GenAI platform to auto
 - Designing an **OLAP-first analytics pipeline** for high-volume, multi-dimensional reporting
 - **Custom async routing architecture**: evaluated LangGraph, selected a purpose-built FastAPI async router for lower latency at production scale
 - **LLM-as-Judge evaluation framework** and human-in-the-loop output quality pipeline
-- **Cost-governance architecture**: semantic caching, token budgeting, dynamic model routing — achieving 65% inference cost reduction ($8 → $2.50/request)
+- **Cost-governance architecture**: semantic caching, token budgeting, dynamic model routing - achieving 65% inference cost reduction ($8 → $2.50/request)
 - **FastAPI service separation** between analytics, application logic, and AI inference
 - Scaled to support **10,000 concurrent users** with sub-100ms latency targets
 
@@ -29,7 +29,7 @@ Built as a **batch-oriented, enterprise-grade analytics platform** prioritising 
 
 ---
 
-## Case Study 2: Geospatial ML — New Store Site Selection &amp; Sales Forecasting
+## Case Study 2: Geospatial ML - New Store Site Selection &amp; Sales Forecasting
 
 **Client Engagement:** $10B+ convenience &amp; prepared foods retailer (2,500+ locations)  
 **Role:** Lead Architect  
@@ -56,27 +56,28 @@ Built as a **spatial-first, cross-sectional modelling platform** prioritising in
 
 ---
 
-## Case Study 3: Bayesian MCMC Clinical Trial Enrollment Forecasting — Oncology Supply Chain
+## Case Study 3: Bayesian MCMC Clinical Trial Enrollment Forecasting - Oncology Supply Chain
 
-**Client Engagement:** Global Pharmaceutical Client (Top-10 Oncology Biopharma) — Phase 2/3 clinical trials  
+**Client Engagement:** Global Pharmaceutical Client (Top-10 Oncology Biopharma) - Phase 2/3 clinical trials  
 **Role:** ML Engineer & Data Engineering Lead · MLOps Architect  
 **Impact:** ~$2B projected supply waste avoidable · 2× heuristic replaced by 63% MAE forecast (first-ever quantitative model) · 8 trials · 40 countries · 3-year supply plan horizon
 
 **Objective**  
-Design and deploy a **site-level probabilistic enrollment forecasting system** for BMS oncology trials (including Opdivo and Sotyktu), replacing a blanket 2× over-ordering safety stock heuristic with a Bayesian MCMC model that generates 80% confidence enrollment projections per site, per country, for a 3-year forward horizon — feeding directly into SAP IBP for drug and placebo supply planning.
+Design and deploy a **site-level probabilistic enrollment forecasting system** for oncology trials, replacing a blanket 2× over-ordering safety stock heuristic with a Bayesian MCMC model that generates 80% confidence enrollment projections per site, per country, for a 3-year forward horizon - feeding directly into SAP IBP for drug and placebo supply planning.
+
 
 The problem required solving for **patient attrition, site-level data sparsity, blinded trial supply complexity, and cross-site patient transfers tracked via IRT**, at a scale of 40 countries and 80+ trial sites simultaneously.
 
 **What this case study covers**
-- **Gamma-Poisson Bayesian inference**: site-level enrollment modelled as a Poisson process with Gamma-distributed rate — enabling native probabilistic uncertainty quantification from sparse monthly data (1–5 patients/site/month)
+- **Gamma-Poisson Bayesian inference**: site-level enrollment modelled as a Poisson process with Gamma-distributed rate - enabling native probabilistic uncertainty quantification from sparse monthly data (1–5 patients/site/month)
 - **Hierarchical MCMC prior elicitation**: country × TA × phase × indication distribution fitting with fallback cascade for cold-start sites (PyMC3 NUTS sampler, 2000 samples, 90% burn-in)
-- **Bayesian conjugate reforecasting**: mid-trial posterior updates using IRT actuals (Gamma(α+k, β+v)) — no model retraining required
+- **Bayesian conjugate reforecasting**: mid-trial posterior updates using IRT actuals (Gamma(α+k, β+v)) - no model retraining required
 - **IRT-based patient transfer reconciliation**: engineering layer to distinguish true attrition from inter-site patient transfers using patient tracking IDs and dropout reason codes
 - **AWS data platform**: Glue ETL pipelines, 3-zone S3 data lake, MICE imputation, CloudWatch monitoring
 - **Enterprise integration**: flat-file monthly batch delivery to SAP IBP for supply planning; Veeva Vault writeback; MLflow model governance
 
 **Design Philosophy**  
-Built as a **Bayesian-first, hierarchical probabilistic system** where uncertainty is a first-class output. The 80% credible interval — not a point forecast — is the primary deliverable, enabling supply planners to make defensible safety stock decisions without systematic over-ordering.
+Built as a **Bayesian-first, hierarchical probabilistic system** where uncertainty is a first-class output. The 80% credible interval - not a point forecast - is the primary deliverable, enabling supply planners to make defensible safety stock decisions without systematic over-ordering.
 
 ➡️ **[Read full case study →]({{ '/case-studies/mcmc-clinical-trial-enrollment/' | relative_url }})**
 

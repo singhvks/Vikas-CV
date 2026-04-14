@@ -49,9 +49,9 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>AI Systems Architect specialising in <strong>probabilistic forecasting, enterprise ML platform design, and GenAI system delivery</strong> for regulated, high-stakes industries — pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
-    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Operated across the full delivery stack — from statistical model design through data engineering pipelines to enterprise integration (SAP IBP, Veeva Vault, Databricks).</p>
-    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics — owning architecture, delivery, and stakeholder accountability from requirements through production.</p>
+    <p>AI Systems Architect specialising in <strong>probabilistic forecasting, enterprise ML platform design, and GenAI system delivery</strong> for regulated, high-stakes industries - pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
+    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Operated across the full delivery stack - from statistical model design through data engineering pipelines to enterprise integration (SAP IBP, Veeva Vault, Databricks).</p>
+    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics - owning architecture, delivery, and stakeholder accountability from requirements through production.</p>
 </section>
 
 <section class="glass-card">
@@ -72,7 +72,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
             <ul>
                 <li>Databricks Lakehouse (Medallion Architecture)</li>
                 <li>Unity Catalog &amp; Delta Lake</li>
-                <li>PySpark — billion-row pipelines</li>
+                <li>PySpark - billion-row pipelines</li>
                 <li>AWS Glue, Redshift</li>
                 <li>Enterprise Data Modelling &amp; OLAP</li>
             </ul>
@@ -82,7 +82,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
             <ul>
                 <li>Async FastAPI (concurrent, batching, pooling)</li>
                 <li>Docker, Kubernetes</li>
-                <li>MLflow — model lifecycle &amp; governance</li>
+                <li>MLflow - model lifecycle &amp; governance</li>
                 <li>CI/CD &amp; Automated Compliance Validation</li>
                 <li>Regulated Systems: HIPAA / GDPR / Solvency II</li>
             </ul>
@@ -96,7 +96,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
     <div class="case-study-card">
         <div class="case-study-impact">$100K/yr saved &nbsp;·&nbsp; 40 FTE automated &nbsp;·&nbsp; 1,000+ concurrent users &nbsp;·&nbsp; 65% inference cost reduction</div>
-        <h3>Principal Architect — Multi-Agent GenAI Analytics Platform</h3>
+        <h3>Principal Architect - Multi-Agent GenAI Analytics Platform</h3>
         <p>Designed and delivered a production-grade GenAI platform for executive analytics and compliance reporting at a large-scale eCommerce client. Automated 60 weekly reports, replaced 40 FTE of manual analysis, and cut LLM inference costs from $8 to $2.50 per request through semantic caching and dynamic model routing.</p>
         <a href="{{ '/case-studies/category-analytics-agentic/' | relative_url }}" class="cta-button">Read Case Study →</a>
 
@@ -104,7 +104,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
     <div class="case-study-card">
         <div class="case-study-impact">$50M+/month CAPEX informed &nbsp;·&nbsp; 70% faster approvals &nbsp;·&nbsp; 22× latency improvement &nbsp;·&nbsp; 15% accuracy lift vs 3rd-party</div>
-        <h3>Lead Architect — Geospatial ML Site Selection &amp; Sales Forecasting</h3>
+        <h3>Lead Architect - Geospatial ML Site Selection &amp; Sales Forecasting</h3>
         <p>Architected a Databricks Lakehouse–based geospatial ML platform for a $10B+ convenience retailer (2,500+ locations), replacing intuition-driven real estate decisions with a standardised, explainable forecasting engine. Reduced site approval cycles from 3 weeks to 5 days and directly informed $50M+ in monthly CAPEX allocation decisions.</p>
         <a href="{{ '/case-studies/site-selection-nti/' | relative_url }}" class="cta-button">Read Case Study →</a>
 
@@ -120,19 +120,19 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
     <h2>Professional Experience</h2>
 
     <div class="exp-job">
-        <h3>Tredence Analytics — Data Science Manager &amp; Principal AI Architect</h3>
+        <h3>Tredence Analytics - Data Science Manager &amp; Principal AI Architect</h3>
         <p><em>Bangalore, India &nbsp;·&nbsp; Nov 2024 – Present</em></p>
         <ul>
             <li>Designed and owned a multi-modal analytics platform (FastAPI + Databricks) for a large eCommerce client: architected for <strong>1,000+ concurrent users at &lt;100ms latency</strong>; replaced 40 FTE manual reporting with agentic workflow orchestration (60 reports/week automated). Economic impact: <strong>$100K/year</strong> operational overhead elimination.</li>
             <li>Implemented cost-governance layer (token budgeting, semantic caching, dynamic LLM routing): cut inference costs <strong>65%</strong> ($8 → $2.50/request) while maintaining output quality; scaled architecture to <strong>10K concurrent users</strong>.</li>
             <li>Owned 1TB+ geospatial Lakehouse: migrated from schema-on-read Hive to star-schema Delta + Unity Catalog; designed dynamic partitioning for <strong>200M geospatial features</strong>. Query latency: <strong>45s → &lt;2s (22× improvement)</strong>. Site-selection approval cycles: <strong>3 weeks → 5 days (70% acceleration)</strong>. Direct business impact: <strong>$50M+ CAPEX allocation decisions informed monthly</strong>.</li>
             <li>Led cloud migration from legacy on-prem ETL to AWS Glue + Databricks. Designed compute governance framework (auto-scaling, workload isolation, cost allocation by business unit). Result: <strong>30% cloud cost reduction</strong>, eliminated <strong>$1M/year</strong> system maintenance overhead.</li>
-            <li>Served as <strong>SME and implementation architect</strong> for GenAI/Analytics solutions — driving platform readiness, team enablement, and phased solution rollout across client engagements.</li>
+            <li>Served as <strong>SME and implementation architect</strong> for GenAI/Analytics solutions - driving platform readiness, team enablement, and phased solution rollout across client engagements.</li>
         </ul>
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>ZS Associates — Business Technology Solutions Consultant, AI Systems</h3>
+        <h3>ZS Associates - Business Technology Solutions Consultant, AI Systems</h3>
         <p><em>Pune, India &nbsp;·&nbsp; Apr 2021 – May 2024</em></p>
         <ul>
             <li>Architected demand forecasting engine for a <strong>$10B+ pharmaceutical client</strong>: chose Bayesian MCMC over standard econometrics for native uncertainty quantification and faster convergence on irregular clinical patterns. Owned end-to-end: model R&amp;D, Spark feature pipeline (<strong>500M+ SKU-day pairs</strong>), inference orchestration, MLOps. Economic outcome: <strong>$2B supply chain waste prevention over 5 years</strong>.</li>
@@ -142,7 +142,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>Collabera Technologies — Data Engineer</h3>
+        <h3>Collabera Technologies - Data Engineer</h3>
         <p><em>Pune, India &nbsp;·&nbsp; Sep 2020 – Apr 2021</em></p>
         <ul>
             <li>Architected HIPAA-compliant Real-World Data (RWD) platform: PII detection, field-level encryption, audit logging. Processed <strong>500M+ healthcare records/day</strong> while maintaining &lt;10MB per-patient data footprint. Integrated Komodo data for HCP scoring.</li>
@@ -151,7 +151,7 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
     </div>
 
     <div class="exp-job" style="margin-top: 2rem;">
-        <h3>L&amp;T Infotech — Engineer</h3>
+        <h3>L&amp;T Infotech - Engineer</h3>
         <p><em>Pune, India &nbsp;·&nbsp; Sep 2016 – May 2020</em></p>
         <ul>
             <li>Owned ML-driven insurance risk platform: API-integrated model serving at <strong>sub-50ms inference SLA</strong>, multi-armed bandit A/B testing framework for 10+ concurrent models, feature store for <strong>500+ features with drift detection</strong>.</li>
@@ -166,12 +166,12 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
         <ul style="font-size: 0.9rem;">
             <li><strong>Generative AI Solutions Architect (2025)</strong></li>
             <li><strong>Databricks Certified GenAI Engineer (2025)</strong></li>
-            <li>AI/ML for Geodata Analysis — ISRO</li>
-            <li>Master's in Applied Data Science — WorldQuant University</li>
-            <li>Certified NLP Developer — Vskills</li>
-            <li>Certified Python Developer — Vskills</li>
-            <li>Certified Tableau Author — Tableau</li>
-            <li>Math for Machine Learning — Amazon</li>
+            <li>AI/ML for Geodata Analysis - ISRO</li>
+            <li>Master's in Applied Data Science - WorldQuant University</li>
+            <li>Certified NLP Developer - Vskills</li>
+            <li>Certified Python Developer - Vskills</li>
+            <li>Certified Tableau Author - Tableau</li>
+            <li>Math for Machine Learning - Amazon</li>
         </ul>
     </section>
 

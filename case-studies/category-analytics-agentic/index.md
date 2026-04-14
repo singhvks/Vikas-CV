@@ -8,20 +8,20 @@
 
 ## Executive Summary
 
-| Metric | Value |
-|--------|-------|
-| Concurrent users (production) | 1,000+ (architected to 10,000) |
-| Response latency target | &lt;100ms |
-| Reports automated per week | 60 |
-| FTE manual effort replaced | 40 FTE |
-| Annual operational overhead eliminated | $100K/year |
-| LLM inference cost reduction | 65% ($8 → $2.50 per request) |
+| Metric                                 | Value                          |
+| -------------------------------------- | ------------------------------ |
+| Concurrent users (production)          | 1,000+ (architected to 10,000) |
+| Response latency target                | &lt;100ms                      |
+| Reports automated per week             | 60                             |
+| FTE manual effort replaced             | 40 FTE                         |
+| Annual operational overhead eliminated | $100K/year                     |
+| LLM inference cost reduction           | 65% ($8 → $2.50 per request)   |
 
 ---
 
 ## 1. Problem Context &amp; Business Objective
 
-Category managers were responsible for evaluating category performance across 12+ dimensions — traffic source, geography, device type, time frames — each with multiple levels (e.g., traffic source L1/L2), resulting in over 100 possible analytical combinations per category.
+Category managers were responsible for evaluating category performance across 12+ dimensions - traffic source, geography, device type, time frames - each with multiple levels (e.g., traffic source L1/L2), resulting in over 100 possible analytical combinations per category.
 
 Weekly and monthly performance reviews were critical inputs for:
 - Sales and marketing budget allocation
@@ -33,7 +33,7 @@ However, generating these insights required manual exploration of multiple dashb
 - Did not scale as the number of categories and regions grew
 - Risked inconsistent or biased interpretation across teams
 
-Stakeholders included category managers, regional managers, and sales &amp; marketing leadership up to VP and C-suite level — with weekly platform outputs consumed directly by senior leadership for budget allocation and incentive planning decisions worth tens of millions annually.
+Stakeholders included category managers, regional managers, and sales &amp; marketing leadership up to VP and C-suite level - with weekly platform outputs consumed directly by senior leadership for budget allocation and incentive planning decisions worth tens of millions annually.
 
 **Objective:** Automate performance analysis across multiple dimensions, surface actionable insights, and reduce dependency on manual reporting while maintaining strict cost and latency constraints.
 
@@ -51,10 +51,10 @@ Stakeholders included category managers, regional managers, and sales &amp; mark
 ## 2. Why LLM-Based Approach?
 
 A rule-based system was evaluated first. This proved unsuitable:
-- The number of rules grew rapidly with dimensions, categories, and business contexts — hard to maintain and scale
+- The number of rules grew rapidly with dimensions, categories, and business contexts - hard to maintain and scale
 - Rule definitions were subjective and varied across teams, introducing inconsistency into performance assessments
 - Rules required frequent manual updates with no learning or optimisation over time
-- An existing Tableau dashboard already showed all metrics — the problem was synthesising relationships across dimensions at decision speed
+- An existing Tableau dashboard already showed all metrics - the problem was synthesising relationships across dimensions at decision speed
 
 An LLM-based evaluation layer was chosen to:
 - Aggregate and reason over large, structured performance datasets across hierarchical dimensions
@@ -68,7 +68,7 @@ An LLM-based evaluation layer was chosen to:
 
 The primary data source resided on an internal Big Data Platform (BDP) exposing TB-scale transactional datasets. Query latency was variable due to resource contention across multiple teams.
 
-A dedicated ETL pipeline was designed to extract and materialise the required datasets on a scheduled basis — aligned with downstream consumption needs and optimised for predictable performance.
+A dedicated ETL pipeline was designed to extract and materialise the required datasets on a scheduled basis - aligned with downstream consumption needs and optimised for predictable performance.
 
 The transactional data was at terabyte scale, optimised primarily for write-heavy ingestion. No dedicated OLAP layer was available; most teams relied on ad-hoc SQL aggregations. For this system, performance reports were refreshed on a weekly cadence with controlled snapshots to enable consistent week-over-week comparisons.
 
@@ -78,17 +78,17 @@ The transactional data was at terabyte scale, optimised primarily for write-heav
 
 The system operated in **extract-based mode** rather than live data connection. Given that performance reviews were conducted weekly and downstream actions required multiple days to implement, near-real-time data did not provide additional value. Batch extraction enabled predictable performance, lower cost, and consistent snapshots.
 
-Features were constructed by aggregating transactional data into an OLAP-style representation — SQL aggregations materialised as partitioned Parquet files optimised for downstream processing.
+Features were constructed by aggregating transactional data into an OLAP-style representation - SQL aggregations materialised as partitioned Parquet files optimised for downstream processing.
 
 Feature categories:
-- **Sales metrics** — revenue, conversion, growth trends
-- **Marketing metrics** — traffic sources, campaign performance
-- **User engagement metrics** — visits, retention signals
-- **Finance metrics** — budget allocation, spend efficiency
+- **Sales metrics** - revenue, conversion, growth trends
+- **Marketing metrics** - traffic sources, campaign performance
+- **User engagement metrics** - visits, retention signals
+- **Finance metrics** - budget allocation, spend efficiency
 
-An external market-pulse signal was introduced to capture category-level trends from public internet sources, allowing the model to contextualise internal performance with external demand conditions — directly influencing marketing budget decisions.
+An external market-pulse signal was introduced to capture category-level trends from public internet sources, allowing the model to contextualise internal performance with external demand conditions - directly influencing marketing budget decisions.
 
-All feature values were normalised with explicit unit annotations (currency, percentage points). Missing values were imputed using metric-specific defaults based on business relevance — ensuring absence of data did not distort downstream reasoning.
+All feature values were normalised with explicit unit annotations (currency, percentage points). Missing values were imputed using metric-specific defaults based on business relevance - ensuring absence of data did not distort downstream reasoning.
 
 ---
 
@@ -111,11 +111,11 @@ The system follows a modular, service-oriented architecture with strict separati
 
 ### Technology Stack Decisions
 
-**Language:** Python — tight integration with data processing, feature engineering, and AI workflows; used consistently across ETL, backend services, and AI logic.
+**Language:** Python - tight integration with data processing, feature engineering, and AI workflows; used consistently across ETL, backend services, and AI logic.
 
-**Backend Framework:** FastAPI — native async request handling, strong typing via Pydantic, low overhead, clear API contracts.
+**Backend Framework:** FastAPI - native async request handling, strong typing via Pydantic, low overhead, clear API contracts.
 
-**Frontend:** React — fine-grained control over user interactions, role-based UI rendering, and clean separation between presentation and backend logic. Streamlit was evaluated and rejected: limited support for complex interactions, constraints on data access control, and challenges scaling to multi-user enterprise applications.
+**Frontend:** React - fine-grained control over user interactions, role-based UI rendering, and clean separation between presentation and backend logic. Streamlit was evaluated and rejected: limited support for complex interactions, constraints on data access control, and challenges scaling to multi-user enterprise applications.
 
 ---
 
@@ -126,7 +126,7 @@ The system follows a modular, service-oriented architecture with strict separati
 - Role-based access control to dashboards and reports (category manager, regional manager, leadership)
 - Interactive filtering (category, region, time window) with stateless UI rendering
 - Auth-aware API consumption using secure session tokens
-- No direct interaction with LLM or data storage layers — minimising exposure
+- No direct interaction with LLM or data storage layers - minimising exposure
 
 #### Application Backend (FastAPI)
 - Asynchronous request orchestration using non-blocking I/O
@@ -134,12 +134,12 @@ The system follows a modular, service-oriented architecture with strict separati
 - Aggregated OLAP datasets queried using DuckDB for low-latency analytical access
 - Server-side session management via secure cookies
 - Controlled delegation of LLM execution to the AI Service
-- Response caching (Redis for high-concurrency short-lived cache; SQLite for lightweight persistence — sessions, metadata, audit logs)
+- Response caching (Redis for high-concurrency short-lived cache; SQLite for lightweight persistence - sessions, metadata, audit logs)
 
 #### AI Service (FastAPI)
 - Dedicated service responsible solely for AI inference
 - Encapsulates prompt execution, LLM provider interaction, output normalisation
-- **Model abstraction layer** — provider switching without upstream changes
+- **Model abstraction layer** - provider switching without upstream changes
 - Request-level caching to avoid repeated LLM calls for identical inputs
 - Guardrails: prompt validation, response schema enforcement, output consistency checks
 - Token usage and cost tracking at user and team level
@@ -161,7 +161,7 @@ The system follows a modular, service-oriented architecture with strict separati
 **Decision:** Replaced LangGraph with a purpose-built **asynchronous FastAPI routing layer**.
 
 **Why this was the right call:**
-- LangGraph's graph traversal and state management added latency that was not offset by functional gains for this use case — the routing logic was deterministic enough to be handled by a lightweight custom implementation
+- LangGraph's graph traversal and state management added latency that was not offset by functional gains for this use case - the routing logic was deterministic enough to be handled by a lightweight custom implementation
 - The custom router provided full control over concurrency patterns, connection pooling, and graceful degradation behaviour
 - Simpler, stateless routing reduced operational complexity and failure surface
 - Enabled fine-grained observability: request tracing, per-agent latency logging, and cost attribution per route
@@ -177,9 +177,9 @@ This decision reflects a deliberate trade-off: less framework abstraction in exc
 A dedicated LLM-as-Judge evaluation pipeline was implemented to assess output quality before serving to end users.
 
 **Evaluation dimensions scored per-output:**
-- **Relevance** — does the insight directly address the category-dimension slice?
-- **Clarity** — is the language accessible to a non-technical category manager?
-- **Actionability** — does the insight suggest a direction for decision-making?
+- **Relevance** - does the insight directly address the category-dimension slice?
+- **Clarity** - is the language accessible to a non-technical category manager?
+- **Actionability** - does the insight suggest a direction for decision-making?
 
 Outputs below threshold were flagged for regeneration or human review, rather than served directly.
 
@@ -192,7 +192,7 @@ Outputs below threshold were flagged for regeneration or human review, rather th
 
 ## 9. Prompt Engineering &amp; Input Representation
 
-Prompts are constructed using **structured templates** — not raw text — to control token usage and improve determinism.
+Prompts are constructed using **structured templates** - not raw text - to control token usage and improve determinism.
 
 ### Prompt Design Principles
 - Hierarchical encoding: Category → Subcategory → Metric
@@ -208,15 +208,15 @@ Prompt templates are versioned and managed independently from application code f
 
 ### Application Backend APIs
 
-- `GET /login-url` — Redirects to enterprise SSO; returns user to application on successful login
-- `GET /auth-me` — Validates active session; returns user metadata and role attributes
-- `GET /category-list` — Returns unique filter values for frontend rendering
-- `POST /wbr` — Accepts user filter parameters; returns consolidated JSON with aggregated tables, derived metrics, and LLM-generated summaries
+- `GET /login-url` - Redirects to enterprise SSO; returns user to application on successful login
+- `GET /auth-me` - Validates active session; returns user metadata and role attributes
+- `GET /category-list` - Returns unique filter values for frontend rendering
+- `POST /wbr` - Accepts user filter parameters; returns consolidated JSON with aggregated tables, derived metrics, and LLM-generated summaries
 
 ### AI Service APIs
 
-- `POST /llm/summary` — Accepts structured input, validates schemas, executes LLM workflow, returns insights
-- `GET /llm/async` — Enables asynchronous execution for concurrent requests and long-running inference tasks
+- `POST /llm/summary` - Accepts structured input, validates schemas, executes LLM workflow, returns insights
+- `GET /llm/async` - Enables asynchronous execution for concurrent requests and long-running inference tasks
 
 Strict schema validation at all service boundaries mitigates prompt injection risk and ensures stable integration.
 
@@ -258,7 +258,7 @@ Strict schema validation at all service boundaries mitigates prompt injection ri
 ## 13. Security &amp; Governance
 
 - Role-based access control enforced at API level with SSO authentication
-- No raw transactional data sent to LLM services — pre-aggregated summaries only
+- No raw transactional data sent to LLM services - pre-aggregated summaries only
 - Server-side cookie for session management
 - Prompt sanitisation and schema-level injection prevention
 - Centralised logging and audit trails for all LLM interactions
@@ -288,20 +288,20 @@ Logs and metrics were used to continuously refine prompt design and cost–perfo
 
 ## 16. Key Design Decisions Summary
 
-| Decision | Choice | Rationale |
-|----------|--------|-----------|
-| Inference mode | Batch over real-time | Cost, consistency, matches weekly decision cadence |
-| Agent routing | Custom FastAPI async router | Lower latency than LangGraph at production scale |
-| LLM evaluation | LLM-as-Judge + human review loop | Output quality assurance before serving |
-| Frontend | React over Streamlit | Enterprise RBAC, multi-user, separation of concerns |
-| Data access mode | Extract-based OLAP snapshots | Predictable performance, cost control, WoW consistency |
-| AI service isolation | Dedicated FastAPI service | Independent scaling, governance, provider switching |
+| Decision             | Choice                           | Rationale                                              |
+| -------------------- | -------------------------------- | ------------------------------------------------------ |
+| Inference mode       | Batch over real-time             | Cost, consistency, matches weekly decision cadence     |
+| Agent routing        | Custom FastAPI async router      | Lower latency than LangGraph at production scale       |
+| LLM evaluation       | LLM-as-Judge + human review loop | Output quality assurance before serving                |
+| Frontend             | React over Streamlit             | Enterprise RBAC, multi-user, separation of concerns    |
+| Data access mode     | Extract-based OLAP snapshots     | Predictable performance, cost control, WoW consistency |
+| AI service isolation | Dedicated FastAPI service        | Independent scaling, governance, provider switching    |
 
 ---
 
 ## 17. Lessons Learned
 
-- **Custom routing outperforms framework abstraction at latency-sensitive scale:** LangGraph provided a clean mental model but introduced overhead that conflicted with production SLAs. For deterministic routing logic, a purpose-built async layer is the right call — not a generic agentic framework.
+- **Custom routing outperforms framework abstraction at latency-sensitive scale:** LangGraph provided a clean mental model but introduced overhead that conflicted with production SLAs. For deterministic routing logic, a purpose-built async layer is the right call - not a generic agentic framework.
 - **LLM evaluation must be designed before go-live, not added after:** The LLM-as-Judge pipeline caught systematic output quality issues in the first weeks. Without it, degraded outputs would have reached VP-level stakeholders and eroded trust in the system.
 - **Semantic caching is high-ROI but has failure modes:** Cache hit rate depends heavily on query normalisation. Queries with minor parameter variations (different time windows, region spellings) produced cache misses. A query normalisation layer was added post-launch to improve this.
 - **Prompt versioning is non-negotiable at scale:** Uncontrolled prompt changes caused measurable output regressions. Versioned prompt templates with rollback capability are essential from day one.
