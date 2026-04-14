@@ -96,18 +96,18 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
     <div class="case-study-card">
         <div class="case-study-impact">$100K/yr saved &nbsp;·&nbsp; 40 FTE automated &nbsp;·&nbsp; 1,000+ concurrent users &nbsp;·&nbsp; 65% inference cost reduction</div>
-        <h3>Principal Architect - Multi-Agent GenAI Analytics Platform</h3>
-        <p>Designed and delivered a production-grade GenAI platform for executive analytics and compliance reporting at a large-scale eCommerce client. Automated 60 weekly reports, replaced 40 FTE of manual analysis, and cut LLM inference costs from $8 to $2.50 per request through semantic caching and dynamic model routing.</p>
+        <h3>Multi-Agent GenAI Analytics Orchestration</h3>
+        <p><strong>Role:</strong> Principal AI Architect</p>
+        <p>Orchestrated the delivery of a production-grade GenAI platform for executive analytics at a large-scale eCommerce client. Engineered a custom async routing layer to bypass framework overhead, automated 60 weekly reports to replace 40 FTE of manual analysis, and slashed LLM inference costs by 65% through semantic caching and dynamic routing.</p>
         <a href="{{ '/case-studies/category-analytics-agentic/' | relative_url }}" class="cta-button">Read Case Study →</a>
-
     </div>
 
     <div class="case-study-card">
         <div class="case-study-impact">$50M+/month CAPEX informed &nbsp;·&nbsp; 70% faster approvals &nbsp;·&nbsp; 22× latency improvement &nbsp;·&nbsp; 15% accuracy lift vs 3rd-party</div>
-        <h3>Lead Architect - Geospatial ML Site Selection &amp; Sales Forecasting</h3>
-        <p>Architected a Databricks Lakehouse–based geospatial ML platform for a $10B+ convenience retailer (2,500+ locations), replacing intuition-driven real estate decisions with a standardised, explainable forecasting engine. Reduced site approval cycles from 3 weeks to 5 days and directly informed $50M+ in monthly CAPEX allocation decisions.</p>
+        <h3>Geospatial ML Site Selection &amp; Forecasting</h3>
+        <p><strong>Role:</strong> Lead AI Architect</p>
+        <p>Standardized new-store site selection for a $10B+ retailer by designing a Databricks Lakehouse-based geospatial ML engine. Replaced intuition-driven real estate decisions with a defensible forecasting system that accelerated approval cycles from 3 weeks to 5 days, informing over $50M in monthly capital allocation.</p>
         <a href="{{ '/case-studies/site-selection-nti/' | relative_url }}" class="cta-button">Read Case Study →</a>
-
     </div>
 
     <div style="text-align: center; margin-top: 2rem;">
