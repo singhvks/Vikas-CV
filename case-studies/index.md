@@ -1,6 +1,8 @@
 # Case Studies
 
-Production-grade AI and ML systems designed and implemented under real enterprise constraints - scale, cost, governance, and client accountability. Each case study documents architectural decisions, data and model trade-offs, and operational considerations including cost control, explainability, and regulatory compliance.
+Three production deployments, built and delivered inside enterprise environments alongside customer leadership. Each system is in live operation. Each directly shaped a measurable, irreversible business decision - capital allocation, drug supply planning, or operational strategy at Fortune 500 scale.
+
+Each case study documents the discovery process, architectural decisions made under real constraints, alternatives evaluated and rejected, and the business outcome - not what was built, but what changed because of it.
 
 ---
 
@@ -60,7 +62,7 @@ Built as a **spatial-first, cross-sectional modelling platform** prioritising in
 
 **Client Engagement:** Global Pharmaceutical Client (Top-10 Oncology Biopharma) - Phase 2/3 clinical trials  
 **Role:** ML Engineer & Data Engineering Lead · MLOps Architect  
-**Impact:** ~$2B projected supply waste avoidable · 2× heuristic replaced by 63% MAE forecast (first-ever quantitative model) · 8 trials · 40 countries · 3-year supply plan horizon
+**Impact:** ~$2B projected supply waste avoidable · VP-level sign-off replaced a decade-old 2× heuristic · 63% MAE (first-ever quantitative forecast in client's oncology history) · 8 trials · 40 countries · 3-year supply plan horizon
 
 **Objective**  
 Design and deploy a **site-level probabilistic enrollment forecasting system** for oncology trials, replacing a blanket 2× over-ordering safety stock heuristic with a Bayesian MCMC model that generates 80% confidence enrollment projections per site, per country, for a 3-year forward horizon - feeding directly into SAP IBP for drug and placebo supply planning.
@@ -84,4 +86,4 @@ Built as a **Bayesian-first, hierarchical probabilistic system** where uncertain
 
 ---
 
-*(Additional case studies covering enterprise demand forecasting, MLOps platforms, and LLM pipeline architecture will be added.)*
+*(Additional case studies covering enterprise demand forecasting, MLOps platform engineering, and LLM pipeline architecture in production will be added.)*

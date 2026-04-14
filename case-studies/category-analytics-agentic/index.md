@@ -4,6 +4,8 @@
 **Client:** Large-scale eCommerce client  
 **Role:** Principal Architect  
 
+> *This system was designed, built, and delivered as a forward-deployed engagement - I was embedded as the primary technical lead and architect working directly inside the client environment, owning both the engineering and the stakeholder relationship from requirements through production.*
+
 ---
 
 ## Executive Summary
@@ -155,6 +157,8 @@ The system follows a modular, service-oriented architecture with strict separati
 ---
 
 ## 7. Key Design Decision: Custom Async Router vs LangGraph
+
+> *This was the most consequential architectural decision in the engagement - and the one that separates production-grade AI systems from well-intentioned prototypes. Choosing a popular framework because it exists is not engineering judgment. Rejecting it after benchmarking because it violates a production SLA is.*
 
 **LangGraph was evaluated** for agentic routing in the initial design phase. After benchmarking under production load conditions, the framework introduced latency overhead that conflicted with the &lt;100ms end-to-end response requirement.
 

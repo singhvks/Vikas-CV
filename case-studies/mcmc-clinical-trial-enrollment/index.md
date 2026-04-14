@@ -5,7 +5,7 @@
 **Role:** ML Engineer & Data Engineering Lead · MLOps Architect  
 **Programme Scale:** 8 Phase 2/3 Oncology Trials · 40 Countries · 80+ Trial Sites · 2-Year Delivery  
 
-> *This case study demonstrates core ML engineering principles applicable across any domain requiring probabilistic demand forecasting under extreme data sparsity: Bayesian hierarchical modelling, uncertainty-aware supply planning, and production MLOps for regulated enterprise environments.*
+> *This case study demonstrates core ML engineering principles applicable across any domain requiring probabilistic demand forecasting under extreme data sparsity: Bayesian hierarchical modelling, uncertainty-aware supply planning, and production MLOps for regulated enterprise environments. The model output was adopted at VP level - replacing a methodology that had been in place for over a decade - validating both the technical rigour and the stakeholder engagement approach required to drive change at this scale.*
 
 ---
 
@@ -355,7 +355,8 @@ The 2× safety stock heuristic was shown to **systematically over-order** relati
 - **IRT-Veeva reconciliation was more complex than anticipated.** Site IDs in IRT and Veeva used different reference systems and update cadences. Building the patient-transfer deduplification layer (tracking ID join + reason code filter) was a 3-month engineering effort that fundamentally changed attrition accuracy.
 - **CTA plan alignment is essential for adoption.** Supply planners trust their CTA plan above all. An MCMC forecast that ignores the CTA agreement will not be adopted. The proportional scaling step that anchors site-level predictions to the country-level CTA forecast was the key design decision that enabled clinical operations buy-in.
 - **Enterprise integration is the last 30% of the work.** The ML model was complete months before production. The flat-file SAP IBP integration, Veeva writeback, CloudWatch alerting, and trial operations team training consumed as much engineering effort as the modelling itself.
-- **What I'd approach differently today:** A full hierarchical Bayesian model (PyMC with pooled country-level hyperpriors) would eliminate the manual fallback cascade (indication → TA → country) and allow partial pooling across sites. I'd also explore **Sequential Monte Carlo (SMC)** for real-time reforecasting as IRT actuals arrive, rather than the monthly batch update cadence.
+  - **What I'd approach differently today:** A full hierarchical Bayesian model (PyMC with pooled country-level hyperpriors) would eliminate the manual fallback cascade (indication → TA → country) and allow partial pooling across sites. I'd also explore **Sequential Monte Carlo (SMC)** for real-time reforecasting as IRT actuals arrive, rather than the monthly batch update cadence.
+- **Cross-domain note for engineering audiences:** The key abstraction here is that the Bayesian conjugate update step replaces a full model retrain. This pattern - maintain a prior, update with actuals, re-simulate - applies to any supervised setting where you want online adaptation without retraining pipelines. The same principle drove our fast iteration on the GenAI cost-governance layer at Tredence.
 
 ---
 

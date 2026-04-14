@@ -18,7 +18,7 @@
 | Accuracy vs 3rd-party benchmarking tool       | **+15% lift**                                   |
 | Data volume processed                         | **&gt;1TB**                                     |
 
-This system replaced intuition-driven real estate decisions with a **low-latency ML inference engine** generating **3-year category-wise sales forecasts** from a latitude/longitude input - reducing evaluation time from weeks to seconds and directly informing $50M+ in monthly capital allocation decisions.
+As the lead architect, I worked directly with the client's Real Estate and Finance leadership to diagnose why existing decisions were failing at scale - then designed and delivered a system that replaced intuition with a defensible, explainable ML engine. The system generates **3-year category-wise sales forecasts** from a latitude/longitude input, reducing evaluation time from weeks to seconds and directly informing **$50M+ in monthly capital allocation decisions**.
 
 ---
 
@@ -40,7 +40,7 @@ Build a **data-driven site selection engine** to:
 - Eliminate regional bias and standardise decision-making nationally
 - Quantify upside and risk for any candidate site from geographic coordinates
 - Scale across the entire US footprint
-- Produce explainable forecasts for real estate and finance leadership
+- Produce explainable forecasts that Real Estate and Finance leadership could act on and defend to their CFO
 
 ---
 

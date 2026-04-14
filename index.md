@@ -49,9 +49,9 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
 
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>AI Systems Architect specialising in <strong>probabilistic forecasting, enterprise ML platform design, and GenAI system delivery</strong> for regulated, high-stakes industries - pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
-    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Operated across the full delivery stack - from statistical model design through data engineering pipelines to enterprise integration (SAP IBP, Veeva Vault, Databricks).</p>
-    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics - owning architecture, delivery, and stakeholder accountability from requirements through production.</p>
+    <p>AI Systems Architect specialising in <strong>enterprise AI platform design, probabilistic forecasting, and GenAI system delivery</strong> for regulated, high-stakes industries - pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
+    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Delivered all of this in a <strong>forward-deployed, customer-facing capacity</strong> - owning architecture, stakeholder relationships, and business outcomes end-to-end, not just the engineering.</p>
+    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics - sitting directly with CXO and VP-level customer leadership to shape technical direction, then delivering the systems that backed those decisions.</p>
 </section>
 
 <section class="glass-card">
