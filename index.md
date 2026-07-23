@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
+title: Vikas Kumar Singh | Manager, Agentic AI @ eBay
 ---
 
 <section class="profile-section glass-card">
     <h1>Vikas Kumar Singh</h1>
-    <p class="subtitle"><strong>AI Systems Architect &amp; Engineering Leader</strong></p>
-    <p>Bangalore, India &nbsp;·&nbsp; Actively seeking senior AI roles in the UAE &amp; globally &nbsp;·&nbsp; Open to relocation</p>
+    <p class="subtitle"><strong>Manager, Agentic AI @ eBay &nbsp;|&nbsp; AI/Backend Architect specializing in Agentic Systems</strong></p>
+    <p>Bangalore, India</p>
 
     <div class="social-links">
         <a href="mailto:singhvks@outlook.in">Email</a> · 
@@ -44,14 +44,22 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
             <span class="stat-number">$1M+</span>
             <span class="stat-label">Annual system overhead eliminated</span>
         </div>
+        <div class="stat-item">
+            <span class="stat-number">5,000</span>
+            <span class="stat-label">Users — GenAI platform scaling target <em>(in progress)</em></span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">4,000+</span>
+            <span class="stat-label">Man-hours/year — operations platform savings target <em>(in progress)</em></span>
+        </div>
     </div>
 </section>
 
 <section class="glass-card">
     <h2>Profile</h2>
-    <p>AI Systems Architect specialising in <strong>enterprise AI platform design, probabilistic forecasting, and GenAI system delivery</strong> for regulated, high-stakes industries - pharma supply chain, large-scale capital allocation, and commercial operations at Fortune 500 scale.</p>
-    <p>Built and shipped end-to-end production systems where errors have irreversible consequences: Bayesian MCMC inference for $2B drug supply planning, geospatial ML informing $50M+ monthly CAPEX decisions, and multi-agent GenAI platforms serving enterprise leadership at sub-100ms latency. Delivered all of this in a <strong>forward-deployed, customer-facing capacity</strong> - owning architecture, stakeholder relationships, and business outcomes end-to-end, not just the engineering.</p>
-    <p>Led cross-functional engineering programmes of <strong>4–28 engineers</strong> across Fortune 500 engagements at ZS Associates and Tredence Analytics - sitting directly with CXO and VP-level customer leadership to shape technical direction, then delivering the systems that backed those decisions.</p>
+    <p><strong>AI Systems Architect &amp; Principal Engineer</strong> with 10 years of experience designing and implementing production-grade AI platforms, multi-agent systems, and enterprise data infrastructure across regulated sectors (pharma, retail, healthcare, and financial services). Drives technical execution on high-stakes systems, transforming complex data challenges into scalable, high-performance architectures.</p>
+    <p>Built and shipped end-to-end production systems in a <strong>forward-deployed capacity</strong> — serving as the hands-on design authority for low-latency, high-concurrency solutions. Now directing <strong>technical architecture and system strategy for Agentic AI at eBay India</strong>, continuing that end-to-end engineering ownership model from inside the organisation.</p>
+    <p>Led technical delivery and mentored engineering teams of <strong>4–28 developers</strong> across Fortune 500 engagements. Combines deep technical execution (FastAPI, Databricks, PySpark, custom ML/LLM routing) with architectural leadership, personally authoring core components and defining key systems patterns.</p>
 </section>
 
 <section class="glass-card">
@@ -60,11 +68,21 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
         <div class="exp-item">
             <h3>GenAI &amp; LLM Systems</h3>
             <ul>
-                <li>Multi-Agent Orchestration</li>
+                <li>Multi-Agent Orchestration (LangChain, LangGraph, MCP)</li>
                 <li>RAG Architecture &amp; Retrieval Optimisation</li>
                 <li>LLM-as-Judge Evaluation Frameworks</li>
-                <li>Token Budgeting &amp; Cost Governance</li>
+                <li>Token Budgeting, Semantic Caching &amp; Dynamic Model Routing</li>
                 <li>Prompt Engineering &amp; Output Validation</li>
+            </ul>
+        </div>
+        <div class="exp-item">
+            <h3>System Design &amp; Backend Engineering</h3>
+            <ul>
+                <li>API Design Patterns &amp; Service Architecture</li>
+                <li>Service Decomposition &amp; Scalability Trade-offs</li>
+                <li>Caching &amp; Queueing Strategy</li>
+                <li>OIDC / OAuth2 Authentication Design</li>
+                <li>Async FastAPI (concurrent, batching, connection pooling)</li>
             </ul>
         </div>
         <div class="exp-item">
@@ -73,16 +91,16 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
                 <li>Databricks Lakehouse (Medallion Architecture)</li>
                 <li>Unity Catalog &amp; Delta Lake</li>
                 <li>PySpark - billion-row pipelines</li>
-                <li>AWS Glue, Redshift</li>
-                <li>Enterprise Data Modelling &amp; OLAP</li>
+                <li>AWS Glue &amp; S3, DuckDB, OLAP design</li>
+                <li>Geospatial Feature Management (200M+ features)</li>
             </ul>
         </div>
         <div class="exp-item">
-            <h3>Engineering &amp; MLOps</h3>
+            <h3>ML, MLOps &amp; Engineering</h3>
             <ul>
-                <li>Async FastAPI (concurrent, batching, pooling)</li>
+                <li>Bayesian MCMC, XGBoost, SHAP Explainability</li>
+                <li>MLflow — model lifecycle, A/B testing, registry</li>
                 <li>Docker, Kubernetes</li>
-                <li>MLflow - model lifecycle &amp; governance</li>
                 <li>CI/CD &amp; Automated Compliance Validation</li>
                 <li>Regulated Systems: HIPAA / GDPR / Solvency II</li>
             </ul>
@@ -120,14 +138,24 @@ title: Vikas Kumar Singh | AI Systems Architect & Engineering Leader
     <h2>Professional Experience</h2>
 
     <div class="exp-job">
-        <h3>Tredence Analytics - Data Science Manager &amp; Principal AI Architect</h3>
-        <p><em>Bangalore, India &nbsp;·&nbsp; Nov 2024 – Present</em></p>
+        <h3>eBay India — Manager, Agentic AI</h3>
+        <p><em>Bangalore, India &nbsp;·&nbsp; Jul 2026 – Present</em></p>
         <ul>
-            <li>Designed and owned a multi-modal analytics platform (FastAPI + Databricks) for a large eCommerce client: architected for <strong>1,000+ concurrent users at &lt;100ms latency</strong>; replaced 40 FTE manual reporting with agentic workflow orchestration (60 reports/week automated). Economic impact: <strong>$100K/year</strong> operational overhead elimination.</li>
-            <li>Implemented cost-governance layer (token budgeting, semantic caching, dynamic LLM routing): cut inference costs <strong>65%</strong> ($8 → $2.50/request) while maintaining output quality; scaled architecture to <strong>10K concurrent users</strong>.</li>
-            <li>Owned 1TB+ geospatial Lakehouse: migrated from schema-on-read Hive to star-schema Delta + Unity Catalog; designed dynamic partitioning for <strong>200M geospatial features</strong>. Query latency: <strong>45s → &lt;2s (22× improvement)</strong>. Site-selection approval cycles: <strong>3 weeks → 5 days (70% acceleration)</strong>. Direct business impact: <strong>$50M+ CAPEX allocation decisions informed monthly</strong>.</li>
-            <li>Led cloud migration from legacy on-prem ETL to AWS Glue + Databricks. Designed compute governance framework (auto-scaling, workload isolation, cost allocation by business unit). Result: <strong>30% cloud cost reduction</strong>, eliminated <strong>$1M/year</strong> system maintenance overhead.</li>
-            <li>Served as <strong>SME and implementation architect</strong> for GenAI/Analytics solutions - driving platform readiness, team enablement, and phased solution rollout across client engagements.</li>
+            <li>Scaling the production GenAI platform to <strong>5,000 users</strong> and architecting an operations platform targeted to save <strong>4,000+ man-hours annually</strong> <em>(in progress)</em>.</li>
+            <li>Designed and built backend service architecture (async FastAPI, service decomposition, caching layer) supporting the GenAI analytics platform at <strong>1,000+ concurrent enterprise users at &lt;100ms latency</strong> — automating 60 reports/week and eliminating <strong>$100K/year</strong> operational overhead.</li>
+            <li>Implemented SSO authentication (OIDC) for role-based access control across enterprise user tiers.</li>
+            <li>Implemented LLM cost-governance layer (token budgeting, semantic caching, dynamic model routing) — cutting inference costs <strong>65%</strong> while maintaining output quality.</li>
+        </ul>
+    </div>
+
+    <div class="exp-job" style="margin-top: 2rem;">
+        <h3>Tredence Analytics — Data Science Manager &amp; Principal AI Architect</h3>
+        <p><em>Bangalore, India &nbsp;·&nbsp; Nov 2024 – Jul 2026 &nbsp;·&nbsp; <strong>Deployed to large-scale eCommerce client as embedded AI Architect, Aug 2025 – Jul 2026</strong></em></p>
+        <ul>
+            <li>Directed and executed a <strong>1TB+ Geospatial Lakehouse migration</strong> for Retail Real Estate site-selection — applying ISRO-certified geodata analysis techniques — improving query latency <strong>22× (45s → &lt;2s)</strong> and accelerating site-selection approval from <strong>3 weeks to 5 days</strong>, informing <strong>$50M+ monthly CAPEX decisions</strong>.</li>
+            <li>Designed Databricks-based data engineering pipelines and GenAI model hosting (RAG-based) for <strong>product harmonization across a US retail footwear brand's outlets in 50+ countries</strong> — enabling automated cross-region rerouting to resolve out-of-stock issues.</li>
+            <li>Decommissioned legacy on-prem ETL and migrated to AWS Glue + Databricks — achieving <strong>30% cloud cost reduction</strong> and eliminating <strong>$1M+/year</strong> system maintenance overhead.</li>
+            <li>Enabled the <strong>AI Centre of Excellence (CoE)</strong> through multiple solution and architecture designs for retail clients — reducing client implementation and planning timelines by <strong>50%</strong>.</li>
         </ul>
     </div>
 

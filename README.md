@@ -1,8 +1,8 @@
 # Vikas Kumar Singh
 
-**AI Systems Architect &amp; Engineering Leader**
+**Manager, Agentic AI @ eBay &nbsp;|&nbsp; AI/Backend Architect specializing in Agentic Systems**
 
-Bangalore, India &nbsp;·&nbsp; Open to Relocation (India / Middle East)
+Bangalore, India
 
 <sub>
 📧 <a href="mailto:singhvks@outlook.in">Email</a> · <a href="https://linkedin.com/in/singhvks">LinkedIn</a> · <a href="https://singhvks.github.io/Vikas-CV">Portfolio</a> · 💻 <a href="https://github.com/singhvks">GitHub</a> · 📄 <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/preview">View CV</a> · ⬇️ <a href="https://docs.google.com/document/d/11G7DIVcDr3NbY4Yd-_yJ6ADBa5IMo7mRaW0_0VfW8dc/export?format=pdf">Download PDF</a>
@@ -22,16 +22,18 @@ Bangalore, India &nbsp;·&nbsp; Open to Relocation (India / Middle East)
 | LLM inference cost reduction                  | **65%** ($8 → $2.50/request) |
 | Query latency improvement                     | **22×** (45s → <2s)          |
 | Site-selection approval cycle reduction       | **70%** (3 weeks → 5 days)   |
+| GenAI platform scaling target                 | **5,000 users** *(in progress)* |
+| Operations platform savings target            | **4,000+ man-hours/year** *(in progress)* |
 
 ---
 
 ## Profile
 
-AI Systems Architect and Engineering Leader with **10 years of experience** designing and delivering **production-grade AI platforms, multi-agent systems, and enterprise-scale data infrastructure** for Fortune 500 clients in pharma, retail, eCommerce, and healthcare.
+**AI Systems Architect &amp; Principal Engineer** with 10 years of experience designing and implementing production-grade AI platforms, multi-agent systems, and enterprise data infrastructure across regulated sectors (pharma, retail, healthcare, and financial services). Drives technical execution on high-stakes systems, transforming complex data challenges into scalable, high-performance architectures.
 
-Consulting background across ZS Associates, L&T Infotech, and Tredence Analytics - working directly with client leadership teams to translate complex data and AI initiatives into quantifiable business outcomes. Deep specialisation in **GenAI system architecture**, **Databricks Lakehouse**, and **LLM cost and quality governance** at enterprise scale.
+Built and shipped end-to-end production systems in a **forward-deployed capacity** — serving as the hands-on design authority for low-latency, high-concurrency solutions. Now directing **technical architecture and system strategy for Agentic AI at eBay India**, continuing that end-to-end engineering ownership model from inside the organisation.
 
-Operates end-to-end: architect, design, build, ship, scale - with a track record of enabling distributed engineering teams of 12–28 engineers across concurrent enterprise engagements.
+Led technical delivery and mentored engineering teams of **4–28 developers** across Fortune 500 engagements. Combines deep technical execution (FastAPI, Databricks, PySpark, custom ML/LLM routing) with architectural leadership, personally authoring core components and defining key systems patterns.
 
 ---
 
@@ -39,24 +41,32 @@ Operates end-to-end: architect, design, build, ship, scale - with a track record
 
 ### GenAI &amp; LLM Systems
 
-- Multi-Agent Orchestration (custom async routing, LangGraph evaluated)
+- Multi-Agent Orchestration (LangChain, LangGraph, MCP)
 - RAG Architecture &amp; Retrieval Optimisation
 - LLM-as-Judge Evaluation Frameworks &amp; Human-in-the-Loop Review
 - Token Budgeting, Semantic Caching &amp; Dynamic Model Routing
 - Prompt Engineering, Output Validation &amp; Cost Governance
 
+### System Design &amp; Backend Engineering
+
+- API Design Patterns &amp; Service Architecture
+- Service Decomposition &amp; Scalability Trade-offs
+- Caching &amp; Queueing Strategy
+- OIDC / OAuth2 Authentication Design
+- Async FastAPI (concurrent request handling, batching, connection pooling)
+
 ### Data &amp; Platform Architecture
 
 - Databricks Lakehouse (Medallion Architecture, Unity Catalog, Delta Lake)
 - PySpark - billion-row pipelines, dynamic partitioning
-- Enterprise Data Modelling (OLAP, star schema, geospatial features)
-- AWS (Glue, Redshift, SageMaker), GCP (Vertex AI, BigQuery), Azure OpenAI
+- AWS Glue & S3, DuckDB, OLAP design
+- Geospatial Feature Management (200M+ features)
 
-### Engineering &amp; MLOps
+### ML, MLOps &amp; Engineering
 
-- Async FastAPI (concurrent request handling, batching, connection pooling)
+- Bayesian MCMC, XGBoost, SHAP Explainability
+- MLflow — model versioning, A/B testing, drift detection, audit logging
 - Docker, Kubernetes, CI/CD
-- MLflow - model versioning, A/B testing, drift detection, audit logging
 - Regulated Systems: HIPAA / GDPR / Solvency II compliance architecture
 
 ---
@@ -111,15 +121,25 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 
 ## Professional Experience
 
-### Tredence Analytics - Data Science Manager &amp; Principal AI Architect
+### eBay India — Manager, Agentic AI
 
-*Bangalore, India · Nov 2024 – Present*
+*Bangalore, India · Jul 2026 – Present*
 
-- Designed and owned multi-modal analytics platform (FastAPI + Databricks) for a large eCommerce client: architected for **1,000+ concurrent users at &lt;100ms latency**; replaced 40 FTE manual reporting with agentic workflow orchestration (60 reports/week automated). Economic impact: **$100K/year** operational overhead elimination.
-- Implemented cost-governance layer (token budgeting, semantic caching, dynamic LLM routing): cut inference costs **65%** ($8 → $2.50/request) while maintaining output quality; scaled architecture to **10K concurrent users**.
-- Owned 1TB+ geospatial Lakehouse: migrated from schema-on-read Hive to star-schema Delta + Unity Catalog; designed dynamic partitioning for **200M geospatial features**. Query latency: **45s → &lt;2s (22× improvement)**. Site-selection approval cycles: **3 weeks → 5 days (70% acceleration)**. Direct business impact: **$50M+ CAPEX allocation decisions informed monthly**.
-- Led cloud migration from legacy on-prem ETL to AWS Glue + Databricks: **30% cloud cost reduction**, eliminated **$1M/year** system maintenance overhead.
-- Served as **SME and implementation architect** for GenAI/Analytics solutions - driving platform readiness, team enablement, and phased rollout across client engagements.
+- Scaling the production GenAI platform to **5,000 users** and architecting an operations platform targeted to save **4,000+ man-hours annually** *(in progress)*.
+- Designed and built backend service architecture (async FastAPI, service decomposition, caching layer) supporting the GenAI analytics platform at **1,000+ concurrent enterprise users at &lt;100ms latency**, automating 60 reports/week and eliminating **$100K/year** operational overhead.
+- Implemented SSO authentication (OIDC) for role-based access control across enterprise user tiers.
+- Implemented LLM cost-governance layer (token budgeting, semantic caching, dynamic model routing) — cutting inference costs **65%** while maintaining output quality.
+
+---
+
+### Tredence Analytics — Data Science Manager &amp; Principal AI Architect
+
+*Bangalore, India · Nov 2024 – Jul 2026 · **Deployed to large-scale eCommerce client as embedded AI Architect, Aug 2025 – Jul 2026***
+
+- Directed and executed a **1TB+ Geospatial Lakehouse migration** for Retail Real Estate site-selection — applying ISRO-certified geodata analysis techniques — improving query latency **22× (45s → &lt;2s)** and accelerating site-selection approval from **3 weeks to 5 days**, informing **$50M+ monthly CAPEX decisions**.
+- Designed Databricks-based data engineering pipelines and GenAI model hosting (RAG-based) for **product harmonization across a US retail footwear brand's outlets in 50+ countries** — enabling automated cross-region rerouting to resolve out-of-stock issues.
+- Decommissioned legacy on-prem ETL and migrated to AWS Glue + Databricks — achieving **30% cloud cost reduction** and eliminating **$1M+/year** system maintenance overhead.
+- Enabled the **AI Centre of Excellence (CoE)** through multiple solution and architecture designs for retail clients — reducing client implementation and planning timelines by **50%**.
 
 ---
 
@@ -175,3 +195,4 @@ Architected a **Databricks Lakehouse–based geospatial ML platform** to support
 ## Languages
 
 - English - Full Professional Proficiency (C2)
+

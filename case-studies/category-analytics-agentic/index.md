@@ -2,9 +2,9 @@
 **FastAPI · Databricks · LLM Orchestration · Cost Governance · LLM-as-Judge**
 
 **Client:** Large-scale eCommerce client  
-**Role:** Principal Architect  
+**Role:** Principal Architect — Tredence Analytics (forward-deployed, Nov 2024–Jul 2026) → Manager, Agentic AI (Jul 2026–Present)  
 
-> *This system was designed, built, and delivered as a forward-deployed engagement - I was embedded as the primary technical lead and architect working directly inside the client environment, owning both the engineering and the stakeholder relationship from requirements through production.*
+> *This system was designed, built, and delivered as a forward-deployed engagement at Tredence Analytics — I was embedded as the primary technical lead and architect working directly inside the client's environment, owning both the engineering and the stakeholder relationship from requirements through production. In July 2026, I transitioned to the client's organisation directly as Manager, Agentic AI, continuing ownership of this platform.*
 
 ---
 
@@ -18,6 +18,7 @@
 | FTE manual effort replaced             | 40 FTE                         |
 | Annual operational overhead eliminated | $100K/year                     |
 | LLM inference cost reduction           | 65% ($8 → $2.50 per request)   |
+| Platform status                        | Live in production · actively scaling to 5,000 users *(Jul 2026)* |
 
 ---
 
